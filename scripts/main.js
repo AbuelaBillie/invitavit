@@ -10,9 +10,9 @@ window.addEventListener("load", function () {
 
   ////////////////// SLIDER IMAGENES /////////////////
   var imagenes = new Array(
-    ["../img/galeria/1.jpg"],
-    ["../img/galeria/2.jpg"],
-    ["../img/galeria/3.jpg"]
+    ["./img/galeria/1.jpg"],
+    ["./img/galeria/2.jpg"],
+    ["./img/galeria/3.jpg"]
   );
   var contador = 0;
 

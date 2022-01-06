@@ -1,80 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 /*GENERAL*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-  }
-  ul {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-  }
-  section{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  h3{
-    font-family: 'Great Vibes', cursive;
-    font-size: 2rem;
-  }
-  .separadorInicio{
-      width: 20rem;
-      height: 5rem;
-      margin: 0 auto;
-      background-image: url("../img/ornamenta.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 100%;
-      margin-top: 1rem;
-      display: flex;
-  }
-  .separadorFin{
-    width: 20rem;
-    height: 5rem;
-    margin: 0 auto;
-    background-image: url("../img/ornamenta.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    margin-top: 1rem;
-    transform: rotate(180deg);
-  }
+h3 {
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+}
+.separadorInicio {
+  width: 20rem;
+  height: 5rem;
+  margin: 0 auto;
+  background-image: url("../img/ornamenta.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-top: 1rem;
+  display: flex;
+}
+.separadorFin {
+  width: 20rem;
+  height: 5rem;
+  margin: 0 auto;
+  background-image: url("../img/ornamenta.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-top: 1rem;
+  transform: rotate(180deg);
+}
 /*FIN GENERAL*/
 
 /*HEADER*/
 /*------Barra navegacion------*/
-.navBar{
-    background-color:  #ffffff;
-    display: block;
-    padding: 0.7rem 1.3rem;
-    color: #222;
-    cursor: pointer;
-    font-size: 1.5rem;
+.navBar {
+  background-color: #ffffff;
+  display: block;
+  padding: 0.7rem 1.3rem;
+  color: #222;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
-.navMenu{
-    background-color: #525252;
-    opacity: .9;
-    width: 100%;
-    margin-left: -100%;
-    transition: all 0.5;
-    position: absolute;
+.navMenu {
+  background-color: #525252;
+  opacity: 0.9;
+  width: 100%;
+  margin-left: -100%;
+  transition: all 0.5;
+  position: absolute;
 }
-.navMenu li a{
-    display: block;
-    padding: 1rem;
-    color: rgb(255, 255, 255);
+.navMenu li a {
+  display: block;
+  padding: 1rem;
+  color: rgb(255, 255, 255);
 }
-.mostrar{
-    margin-left: 0;
+.mostrar {
+  margin-left: 0;
 }
-#active{
-    color: rgb(0, 0, 0);
+#active {
+  color: rgb(0, 0, 0);
 }
 /*----Fin barra navegacion----*/
 
@@ -82,148 +82,150 @@
 
 /*MAIN*/
 /*-----------Banner----------*/
-.banner{
-    width: 100%;
-    height: 30rem;
-    background-image:  url("../img/bannerBoda.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+.banner {
+  width: 100%;
+  height: 30rem;
+  background-image: url("../img/bannerBoda.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.textoBanner{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    margin-bottom: 3rem;
-    color: white;
-    text-shadow: .2rem .2rem .3rem black;
+.textoBanner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 3rem;
+  color: white;
+  text-shadow: 0.2rem 0.2rem 0.3rem black;
 }
-.textoBanner h2{
-    font-family: 'Great Vibes', cursive;
-    font-size: 3.5rem;
+.textoBanner h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3.5rem;
 }
-.banner p{
-    color: white;
-    margin-bottom: .5rem;
-    font-weight: bold;
-    text-shadow: .1rem .1rem .1rem rgb(0, 0, 0);
+.banner p {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-shadow: 0.1rem 0.1rem 0.1rem rgb(0, 0, 0);
 }
-#reloj{
-    display: flex;
-    margin-bottom: 2rem;
+#reloj {
+  display: flex;
+  margin-bottom: 2rem;
 }
-#reloj p{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: .5rem;
+#reloj p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
 }
 /*---------Fin banner--------*/
-
 
 /*---------Informacion--------*/
 
 /*________Donde y cuando______*/
-.dondeCuando{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.dondeCuando {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.dondeCuando h4{
-    text-transform: uppercase;
-    margin: 1rem auto;
+.dondeCuando h4 {
+  text-transform: uppercase;
+  margin: 1rem auto;
 }
-.dondeCuando img{
-    width: 90%;
-    height: 15rem;
-    object-fit: cover;
-    border-radius: .5rem;
+.dondeCuando img {
+  width: 90%;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
-.dondeCuando h5{
-    text-transform: uppercase;
-    margin-top: 1rem;
-    font-size: 1rem;
+.dondeCuando h5 {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  font-size: 1rem;
 }
-.textoFechaLugar{
-   padding: 2rem;
+.textoFechaLugar {
+  padding: 2rem;
 }
-.textoFechaLugar span{
-    font-weight: bold;
-    margin-right: .5rem;
+.textoFechaLugar span {
+  font-weight: bold;
+  margin-right: 0.5rem;
 }
-.btnMapa{
-    font-size: 1rem;
-    padding: .7rem;
-    width: 11rem;
-    border: solid;
-    border-radius: .2rem;
-    color: black;
-    text-align: center;
-    border-width: .1rem;
+.btnMapa {
+  font-size: 1rem;
+  padding: 0.7rem;
+  width: 11rem;
+  border: solid;
+  border-radius: 0.2rem;
+  color: black;
+  text-align: center;
+  border-width: 0.1rem;
 }
-.btnFecha{
-    font-size: 1rem;
-    padding: .7rem;
-    margin-top: 1rem;
-    width: 11rem;
-    border: solid;
-    border-radius: .2rem;
-    color: black;
-    text-align: center;
-    border-width: .1rem;
+.btnFecha {
+  font-size: 1rem;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  width: 11rem;
+  border: solid;
+  border-radius: 0.2rem;
+  color: black;
+  text-align: center;
+  border-width: 0.1rem;
+}
+#mapa{
+    display: none;
 }
 /*______Fin donde y cuando____*/
 
 /*__________Vestimenta________*/
-.vestimenta h3{
-    margin-top: 3rem;
-    text-align: center;
+.vestimenta h3 {
+  margin-top: 3rem;
+  text-align: center;
 }
-.vestimenta img{
-    margin: 1rem auto;
-    width: 10rem;
+.vestimenta img {
+  margin: 1rem auto;
+  width: 10rem;
 }
-.vestimenta p{
-    margin-bottom: 1rem;
-    text-align: center;
+.vestimenta p {
+  margin-bottom: 1rem;
+  text-align: center;
 }
 /*________Fin vestimenta______*/
 
 /*___________Regalos__________*/
-.regalos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.regalos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.regalos h3{
-    margin-top: 3rem;
+.regalos h3 {
+  margin-top: 3rem;
 }
-.regalos p{
-    font-size: 1rem;
-    padding: 2rem;
-    text-align: justify;
+.regalos p {
+  font-size: 1rem;
+  padding: 2rem;
+  text-align: justify;
 }
-.regalos ul{
-    display: flex;
-    flex-wrap: wrap;
+.regalos ul {
+  display: flex;
+  flex-wrap: wrap;
 }
-.regalos ul li{
-    width: 6rem;
-    height: 5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: solid;
-    border-width: .1rem;
-    margin: .2rem;
-    border-radius: .2rem;
+.regalos ul li {
+  width: 6rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0.1rem;
+  margin: 0.2rem;
+  border-radius: 0.2rem;
 }
-.regalos ul li i{
-    margin-bottom: .3rem;
-    font-size: 2rem;
+.regalos ul li i {
+  margin-bottom: 0.3rem;
+  font-size: 2rem;
 }
 /*_________Fin regalos________*/
 
@@ -232,97 +234,223 @@
 /*-----------Galeria----------*/
 
 /*__________Instagram_________*/
-.instagram{
-    margin-top: 3rem;
-    width: 100%;
-    height: 20rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgb(175,56,172);
-background: linear-gradient(222deg, #6b3cc6,#d83495, #ff6c1e, #ffca5d);
+.instagram {
+  margin-top: 3rem;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(175, 56, 172);
+  background: linear-gradient(222deg, #6b3cc6, #d83495, #ff6c1e, #ffca5d);
 
-    color: white;
+  color: white;
 }
-.instagram i{
-    font-size: 5rem;
-    margin-bottom: 1rem;
+.instagram i {
+  font-size: 5rem;
+  margin-bottom: 1rem;
 }
-.instagram p{
-    font-size: 2rem;
+.instagram p {
+  font-size: 2rem;
 }
-.instagram a{
-    color: white;
-    margin-top: 1rem;
+.instagram a {
+  color: white;
+  margin-top: 1rem;
 }
 /*________Fin instagram_______*/
 
 /*____________Fotos___________*/
-.galeriaFotos{
-    width: 100%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.galeriaFotos {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-.fotos{
-    width: 100%;
-    height: 25rem;
-    background-color: rgb(221, 221, 221);
-    background-image: url("../img/galeria/3.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.fotos {
+  width: 100%;
+  height: 30rem;
+  background-image: url("../img/galeria/3.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 /*__________Fin fotos_________*/
 
 /*---------Fin galeria--------*/
 
 /*------Conf. asistencia------*/
-.asistencia p{
-    padding: 2rem;
-    text-align: justify;
+.asistencia p {
+  padding: 2rem;
+  text-align: justify;
 }
-.btnWhatsapp{
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    padding: .7rem;
-    color: black;
-    border-radius: .3rem;
-    background-color: rgb(82, 189, 82);
-    color: white;
+.btnWhatsapp {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  color: black;
+  border-radius: 0.3rem;
+  background-color: rgb(82, 189, 82);
+  color: white;
 }
-.btnWhatsapp i{
-    margin-right: 0.7rem;
-    font-size: 2rem;
-    color: white;
+.btnWhatsapp i {
+  margin-right: 0.7rem;
+  font-size: 2rem;
+  color: white;
 }
 /*----Fin conf. asistencia----*/
 /*FIN MAIN*/
 
-
-
+/*FOOTER*/
+footer {
+  background-color: #444;
+  text-align: center;
+  color: white;
+  padding: 0.3rem;
+  font-size: 0.7rem;
+  margin-top: 2rem;
+}
+/*FIN FOOTER*/
 
 /*RESPONSIVE PC*/
-@media screen and (min-width:768px){
-    /*HEADER*/
-    .navBar{
-        display: none;
+@media screen and (min-width: 768px) {
+    /*GENERAL*/
+    section{
+        width: 50%;
+        margin: 0 auto;
     }
-    .navMenu{
-        margin-left: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #62b9b9;
+    h3{
+        font-size: 3rem ;
     }
-    .navMenu li a:hover{
-        color: #035e5e;
-    }
-    /*FIN HEADER*/
+    .separadorInicio {
+        width: 30rem;
+        height: 6rem;
+        margin: 3rem auto;
+      }
+      .separadorFin {
+        width: 30rem;
+        height: 6rem;
+        margin: 3rem auto;
+      }
+    /*FIN GENERAL*/
+  /*HEADER*/
+  .navBar {
+    display: none;
+  }
+  .navMenu {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+  }
+  .navMenu li a:hover {
+    color: #bdbdbd;
+  }
+  /*FIN HEADER*/
 
-    /*MAIN*/
+  /*MAIN*/
+  /*-----------Banner----------*/
+  .banner {
+    height: 40rem;
+    background-image: url("../img/bannerBodaPC.jpg");
+  background-position:bottom;
+  }
+  .textoBanner {
+    font-size: 3rem;
+  }
+  .banner p {
+    font-size: 1.5rem;
+  }
+  /*---------Fin banner--------*/
 
-    /*FIN MAIN*/
+  /*---------Informacion--------*/
+
+/*________Donde y cuando______*/
+  .dondeCuando img {
+    height: 30rem;
+  }
+  .dondeCuando h4{
+      font-size: 1.5rem;
+      margin-top: 3rem;
+  }
+  .dondeCuando h5 {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  .textoFechaLugar {
+    padding: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .btnMapa {
+    display: none;
+}
+  .btnFecha {
+    display: none;
+  }
+  #mapa{
+      display: inline;
+  }
+  /*______Fin donde y cuando____*/
+
+  /*__________Vestimenta________*/
+  .vestimenta img {
+    margin: 1rem;
+    width: 10rem;
+  }
+  .vestimenta p {
+    font-size: 1.3rem;
+  }
+  /*________Fin vestimenta______*/
+  
+  /*___________Regalos__________*/
+
+  .regalos p {
+    font-size: 1.3rem;
+  }
+
+  .regalos ul li {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
+  .regalos ul li i {
+    margin-bottom: 0.3rem;
+    font-size: 3rem;
+  }
+  .regalos ul li :hover{
+    color: tomato;
+  }
+  /*_________Fin regalos________*/
+  
+  /*-------Fin informacion------*/
+
+  /*-----------Galeria----------*/
+  .instagram a:hover{
+      opacity: .7;
+  }
+  
+  /*____________Fotos___________*/
+  .fotos {
+    height: 40rem;
+    background-color: black;
+  }
+  /*__________Fin fotos_________*/
+  
+  /*---------Fin galeria--------*/
+  
+  /*------Conf. asistencia------*/
+  .asistencia p {
+    font-size: 1.3rem;
+  }
+  .btnWhatsapp {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+  /*----Fin conf. asistencia----*/
+
+  /*FIN MAIN*/
 }
 /*FIN RESPONSIVE PC*/
