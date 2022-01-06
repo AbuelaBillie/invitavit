@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./scripts/main.js"></script>
+    <title>Invitavit</title>
+  </head>
+  <body>
+    <header>
+      <!-- Barra navegación -->
+      <span class="navBar" id="btnMenu"><i class="fas fa-bars"></i></span>
+        <ul class="navMenu">
+          <li><a href="./index.html#galeria">Galería</a></li>
+          <li><a href="./index.html#confirmacion">Confirmar asistencia</a></li>
+          <li><a href="./index.html#cont">Cómo llegar</a></li>
+        </ul>
+      </nav>
+      <!-- fin Barra navegación -->
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="textoBanner">
+          <h1>María y José</h1>
+          <h2>¡Nos casamos!</h2>
+        </div>
+      </section>
+      <!-- Fin banner -->
+      <div class="separadorInicio"></div>
+      <!-- Informacion -->
+      <section class="info">
+          <!-- Donde y cuando -->
+        <article class="dondeCuando">
+          <h3>Dónde y cuándo</h3>
+          <h4>Salón de fiestas Las Lulas</h4>
+          <img src="./img/salon.jpg" alt="Salon de eventos" />
+          <h5>¡Te esperamos!</h5>
+          <div class="textoFechaLugar">
+            <p class="cuando"><span>Cuándo:</span>25/12/2021</p>
+          <p class="direccion">
+            <span>Dirección:</span>Calle verdadera 1234, entre Una y Otra - CABA
+          </p>
+          </div>
+          <button class="btnMapa">Abrir mapa</button>
+          <button class="btnFecha">Agendar fecha</button>
+        </article>
+        <!-- Fin donde y cuando -->
+
+        <!-- Vestimenta -->
+        <article class="vestimenta">
+            <h3>Dress Code</h3>
+            <img src="./img/iconDressCode.png" alt="vestimenta elegante sport">
+            <p>Elegant Sport</p>
+        </article>
+        <!-- Fin vestimenta -->
+
+        <!-- Regalos -->
+        <article class="regalos">
+            <h3>Lista de regalos</h3>
+            <p>Tu presencia es lo más importante, pero si gustás regalarnos estas son algunas ideas:</p>
+        <ul>
+          <li><i class="fas fa-gift"></i>Ropa</li>
+          <li><i class="fas fa-gift"></i>Libros</li>
+          <li><i class="fas fa-gift"></i>Heladera</li>
+        </ul>
+        </article>
+        <!-- Fin regalos -->
+
+      </section>
+      <!-- Fin Informacion -->
+      <div class="separadorFin"></div>
+      <!-- Galeria -->
+      <section id="galeria" class="galeria">
+        <article class="instagram">
+          <i class="fab fa-instagram"></i>
+          <p class="hashtag">#tu_hashtag</p>
+          <a href="">Ver en Instagram</a>
+        </article>
+        <article class="galeriaFotos">
+          <div class="fotos" id="imagen"></div>
+        </article>
+      </section>
+      <!-- Fin galeria -->
+      <div class="separadorInicio"></div>
+      <!-- Confirmacion asistencia -->
+      <section id="confirmacion" class="asistencia">
+          <h3>Confirmar asistencia</h3>
+          <p>Envianos un mensaje confirmando tu asistencia e indicanos si tenés algún tipo de restricción alimentaria para adaptar tu menú!</p>
+          <button class="btnWhatsapp"><i class="fab fa-whatsapp"></i>Confirmar ahora</button>
+      </section>
+      <!-- Fin confirmacion asistencia -->
+      <div class="separadorFin"></div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
