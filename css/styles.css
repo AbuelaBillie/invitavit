@@ -49,7 +49,7 @@ h3 {
 
 /*HEADER*/
 /*------Barra navegacion------*/
-.navBar {
+ .navBar {
   background-color: #ffffff;
   display: block;
   padding: 0.7rem 1.3rem;
@@ -76,6 +76,23 @@ h3 {
 #active {
   color: rgb(0, 0, 0);
 }
+.btnAudio{
+  padding: 1rem;
+  border: none;
+  background-color: white;
+  display: block;
+  background-color: black;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 9999;
+  border-radius: 100px;
+  opacity: .7;
+}
+.btnAudio i{
+  font-size: 1.5rem;
+  color: white;
+}
 /*----Fin barra navegacion----*/
 
 /*FIN HEADER*/
@@ -85,9 +102,10 @@ h3 {
 .banner {
   width: 100%;
   height: 30rem;
-  background-image: url("../img/bannerBoda.jpg");
+  background-image: url("../img/bannerBoda.webp");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 50rem;
 }
 .textoBanner {
   height: 100%;
@@ -133,6 +151,10 @@ h3 {
   text-transform: uppercase;
   margin: 1rem auto;
 }
+.nombreSalon{
+  font-size: .9rem;
+  padding: 0rem 1rem 1rem 1rem;
+}
 .dondeCuando img {
   width: 90%;
   height: 15rem;
@@ -165,6 +187,7 @@ h3 {
   font-size: 1rem;
   padding: 0.7rem;
   margin-top: 1rem;
+  margin-bottom: 2rem;
   width: 11rem;
   border: solid;
   border-radius: 0.2rem;
@@ -207,7 +230,7 @@ h3 {
   padding: 2rem;
   text-align: justify;
 }
-.regalos ul {
+/* .regalos ul {
   display: flex;
   flex-wrap: wrap;
 }
@@ -226,6 +249,22 @@ h3 {
 .regalos ul li i {
   margin-bottom: 0.3rem;
   font-size: 2rem;
+} */
+.btnDatosBancarios{
+  padding: 1rem;
+  font-size: 1rem;
+}
+.btnDatosBancarios i{
+  margin-right: .6rem;
+}
+.contDatosBancarios{
+  margin-top: 1.5rem;
+}
+.contDatosBancarios p{
+  padding: .2rem;
+}
+.contDatosBancarios span{
+  font-weight: bold;
 }
 /*_________Fin regalos________*/
 
@@ -234,7 +273,7 @@ h3 {
 /*-----------Galeria----------*/
 
 /*__________Instagram_________*/
-.instagram {
+/* .instagram {
   margin-top: 3rem;
   width: 100%;
   height: 20rem;
@@ -257,10 +296,13 @@ h3 {
 .instagram a {
   color: white;
   margin-top: 1rem;
-}
+} */
 /*________Fin instagram_______*/
 
 /*____________Fotos___________*/
+.galeria h3{
+  padding: 1rem 1rem 0 1rem;
+}
 .galeriaFotos {
   width: 100%;
   margin-top: 1rem;
@@ -269,7 +311,7 @@ h3 {
 .fotos {
   width: 100%;
   height: 30rem;
-  background-image: url("../img/galeria/3.jpg");
+  background-image: url("../img/galeria/3.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -299,6 +341,7 @@ h3 {
   color: white;
 }
 /*----Fin conf. asistencia----*/
+
 /*FIN MAIN*/
 
 /*FOOTER*/
@@ -352,9 +395,9 @@ footer {
   /*MAIN*/
   /*-----------Banner----------*/
   .banner {
-    height: 40rem;
-    background-image: url("../img/bannerBodaPC.jpg");
-  background-position:bottom;
+    height: 45rem;
+    background-image: url("../img/bannerBoda.webp");
+  background-size: cover;
   }
   .textoBanner {
     font-size: 3rem;
@@ -368,8 +411,8 @@ footer {
 
 /*________Donde y cuando______*/
   .dondeCuando img {
-    height: 30rem;
-  }
+    height: 25rem;
+  } 
   .dondeCuando h4{
       font-size: 1.5rem;
       margin-top: 3rem;
@@ -410,7 +453,7 @@ footer {
     font-size: 1.3rem;
   }
 
-  .regalos ul li {
+  /* .regalos ul li {
     width: 10rem;
     height: 10rem;
     margin: 1rem;
@@ -422,15 +465,15 @@ footer {
   }
   .regalos ul li :hover{
     color: tomato;
-  }
+  } */
   /*_________Fin regalos________*/
   
   /*-------Fin informacion------*/
 
   /*-----------Galeria----------*/
-  .instagram a:hover{
+  /* .instagram a:hover{
       opacity: .7;
-  }
+  } */
   
   /*____________Fotos___________*/
   .fotos {
@@ -454,3 +497,7 @@ footer {
   /*FIN MAIN*/
 }
 /*FIN RESPONSIVE PC*/
+
+.oculto{
+  display: none;
+}

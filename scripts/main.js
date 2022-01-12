@@ -1,4 +1,24 @@
 window.addEventListener("load", function () {
+
+  ///////////////// CANCION DE FONDO /////////////////
+  const cancion = document.getElementById("cancion");
+  const btnAudio = document.querySelector(".btnAudio");
+
+  btnAudio.addEventListener("click", function () {
+    if (btnAudio.classList.contains("mute")) {
+      btnAudio.innerHTML = '<i class="fas fa-volume-up"></i>';
+      btnAudio.classList.remove("mute");
+      cancion.play();
+    }
+    else{
+      btnAudio.innerHTML = '<i class="fas fa-volume-mute"></i>';
+      btnAudio.classList.add("mute");
+      cancion.pause();
+    }
+  });
+  ////////////////////////////////////////////////////
+
+
   ///////////////// BARRA NAVEGACION /////////////////
   const btnMenu = document.querySelector("#btnMenu");
   const menu = document.querySelector(".navMenu");
@@ -10,9 +30,17 @@ window.addEventListener("load", function () {
 
   ////////////////// SLIDER IMAGENES /////////////////
   var imagenes = new Array(
-    ["./img/galeria/1.jpg"],
-    ["./img/galeria/2.jpg"],
-    ["./img/galeria/3.jpg"]
+    ["./img/galeria/1.webp"],
+    ["./img/galeria/2.webp"],
+    ["./img/galeria/3.webp"],
+    ["./img/galeria/4.webp"],
+    ["./img/galeria/5.webp"],
+    ["./img/galeria/6.webp"],
+    ["./img/galeria/7.webp"],
+    ["./img/galeria/8.webp"],
+    ["./img/galeria/9.webp"],
+    ["./img/galeria/10.webp"],
+    ["./img/galeria/11.webp"]
   );
   var contador = 0;
 
@@ -24,7 +52,7 @@ window.addEventListener("load", function () {
 
   cambiarImagenes();
 
-  setInterval(cambiarImagenes, 5000);
+  setInterval(cambiarImagenes, 3000);
   ////////////////////////////////////////////////////
 
   ///////////////// CUENTA REGRESIVA /////////////////
@@ -58,12 +86,25 @@ window.addEventListener("load", function () {
   
       if(t.remainTime <= 1) {
         clearInterval(timerUpdate);
-        el.innerHTML = finalMessage;
+        el.innerHTML = `<p>${finalMessage}</p>`;
       }
   
     }, 1000)
   };
   
-  countdown('Jan 17 2022 00:00:00 GMT-0300', 'reloj', '¡Ya empezó!');
+  countdown('Mar 12 2022 20:30:00 GMT-0300', 'reloj', '0 días restantes');
   ////////////////////////////////////////////////////
+
+
+
+  /////////////// BTN DATOS BANCARIOS ////////////////
+  const btnDatosBancarios = document.querySelector(".btnDatosBancarios");
+  const contDatosBancarios = document.querySelector(".contDatosBancarios");
+
+  btnDatosBancarios.addEventListener("click", function () {
+    contDatosBancarios.classList.toggle("oculto");
+  });
+  ////////////////////////////////////////////////////
+
+
 });
