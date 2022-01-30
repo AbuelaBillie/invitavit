@@ -52,8 +52,7 @@ window.addEventListener("load", function () {
       let t = getRemainingTime(deadline);
       el.innerHTML = `<p>${t.remainDays}<span>Días</span></p>
       <p>${t.remainHours}<span>Horas</span></p>
-      <p>${t.remainMinutes}<span>Minutos</span></p>
-      <p>${t.remainSeconds}<span>Segundos</span></p>`;
+      <p>${t.remainMinutes}<span>Min.</span></p>`;
   
       if(t.remainTime <= 1) {
         clearInterval(timerUpdate);

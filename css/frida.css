@@ -7,7 +7,7 @@
 h3 {
     font-family: 'suttimmos', cursive;
     font-size: 3.5rem;
-    color: #cf787c;
+    color: #e4acb1;
   }
   span{
     /* color: #a58da7; */
@@ -32,21 +32,21 @@ h3 {
     background-size:cover;
   }
   #reloj span{
-    color: black;
+    color: #ac9361;
   }
   .btnAudio{
     background-color:  #cf787c;
   }
   .textoBanner{
       height: 35%;
-      margin-top: 5.5rem;
+      margin-top: 7rem;
       justify-content: space-around;
   }
   .textoBanner h1 {
     font-family: 'suttimmos';
       font-size: 7rem;
       margin: 0rem;
-      color: #a38e79;
+      color: #ac9361;
       text-shadow: none;
   }
   .textoBanner h2{
@@ -57,8 +57,10 @@ h3 {
     margin-top: -6rem;
   }
  .banner p{
-     color: black;
+   margin-top: -3rem;
+   color: #ac9361;
      text-shadow: none;
+     font-size: .8rem;
  }
  .dondeCuando h3 {
     margin-top: 2rem;
@@ -82,6 +84,9 @@ h3 {
 }
 .regalos h3{
     margin-top: 1rem;
+}
+.btnDatosBancarios{
+  display: none;
 }
 @media screen and (min-width: 768px) {
     .navMenu {
