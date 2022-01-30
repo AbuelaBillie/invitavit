@@ -31,8 +31,11 @@ h3 {
     background-repeat: no-repeat;
     background-size:cover;
   }
+  #reloj p{
+    color: #cf787c;
+  }
   #reloj span{
-    color: #ac9361;
+    color: #cf787c;
   }
   .btnAudio{
     background-color:  #cf787c;
@@ -95,8 +98,12 @@ h3 {
     .navMenu li a:hover {
         color: black;
       }
+      .textoBanner{
+        margin-top: 10rem;
+      }
       .textoBanner h1{
           font-size: 10rem;
+          margin-top: 6rem;
       }
       .textoBanner h2{
           font-size: 1.5rem;
