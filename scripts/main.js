@@ -32,15 +32,15 @@ window.addEventListener("load", function () {
   var imagenes = new Array(
     ["./img/galeria/1.webp"],
     ["./img/galeria/2.webp"],
-    ["./img/galeria/3.webp"],
-    ["./img/galeria/4.webp"],
-    ["./img/galeria/5.webp"],
-    ["./img/galeria/6.webp"],
-    ["./img/galeria/7.webp"],
-    ["./img/galeria/8.webp"],
-    ["./img/galeria/9.webp"],
-    ["./img/galeria/10.webp"],
-    ["./img/galeria/11.webp"]
+    ["./img/galeria/3.webp"]
+    // ["./img/galeria/4.webp"],
+    // ["./img/galeria/5.webp"],
+    // ["./img/galeria/6.webp"],
+    // ["./img/galeria/7.webp"],
+    // ["./img/galeria/8.webp"],
+    // ["./img/galeria/9.webp"],
+    // ["./img/galeria/10.webp"],
+    // ["./img/galeria/11.webp"]
   );
   var contador = 0;
 

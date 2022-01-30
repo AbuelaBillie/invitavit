@@ -273,8 +273,8 @@ h3 {
 /*-----------Galeria----------*/
 
 /*__________Instagram_________*/
-/* .instagram {
-  margin-top: 3rem;
+.instagram {
+  margin-top: 0rem;
   width: 100%;
   height: 20rem;
   display: flex;
@@ -296,7 +296,7 @@ h3 {
 .instagram a {
   color: white;
   margin-top: 1rem;
-} */
+}
 /*________Fin instagram_______*/
 
 /*____________Fotos___________*/
