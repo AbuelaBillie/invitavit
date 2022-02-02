@@ -81,11 +81,11 @@ window.addEventListener("load", function () {
         break;
     }
     btnWsp.addEventListener("click", function () {
-      location.href = `https://wa.me/542664566589/?text=Hola,+confirmo+mi+asistencia+con+menú+${opcionSeleccionada}+soy+...";`;
+      location.href = `https://wa.me/542664566589/?text=Hola,+confirmo+mi+asistencia+con+menú+${opcionSeleccionada}+soy+...`;
     });
   });
   btnWsp.addEventListener("click", function () {
-    location.href = `https://wa.me/542664566589/?text=Hola,+confirmo+mi+asistencia+con+menú+clásico+soy+...";`;
+    location.href = `https://wa.me/542664566589/?text=Hola,+confirmo+mi+asistencia+con+menú+clásico+soy+...`;
   });
 
   ////////////////////////////////////////////////////
