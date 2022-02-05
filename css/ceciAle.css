@@ -95,3 +95,82 @@ h3{
 .btnAudio{
     background-color: #3d4e3f;
 }
+
+@media screen and (min-width: 768px) {
+    h3{
+        font-size: 5rem;
+    }
+    .textoBanner h1{
+        font-size: 7rem;
+    }
+    .textoBanner h2{
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+    .banner{
+        background-size: 50rem;
+        padding-top: 11rem;
+    }
+    .textoBanner{
+        height: 15rem;
+        justify-content: space-evenly;
+        margin-top: 9rem;
+    }
+    
+    .banner p{
+        font-size: 1.1rem;
+    }
+    .dondeCuando h4{
+        font-size: 1.2rem;
+    }
+    section{
+        width: 100%;
+        margin: 0 auto;
+    }
+    article{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .dondeCuando img {
+        width: 37rem;
+        height: 25rem;
+      }
+    .parroquia{
+        background-size: 30rem;
+        background-position-x: 0rem;
+        background-position-y: 7rem;
+    }
+    .salon{
+        padding-top: 5rem;
+        margin-top: 2rem;
+        background-size: 30rem;
+        background-position-x: 100%;
+        background-position-y: -0.7rem;
+        
+    }
+    .vestimenta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .decoracion{
+        margin-top: 175rem;
+        margin-left: -15rem;
+        background-position-x: 0rem;
+    } 
+    .regalos p{
+        font-size: 1.1rem;
+    }
+    .contDatosBancarios p{
+        font-size: 1.1rem;
+    }
+    .separadorInicio{
+        height: 21rem;
+    }
+    .asistencia p{
+        font-size: 1.1rem;
+    }
+    .btnWhatsapp{
+        width: 16rem;
+    }
+}
