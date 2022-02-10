@@ -1,29 +1,29 @@
 window.addEventListener("load", function () {
     ////////////////// SLIDER IMAGENES /////////////////
-    // var imagenes = new Array(
-    //   ["./img/galeria/1.webp"],
-    //   ["./img/galeria/2.webp"],
-    //   ["./img/galeria/3.webp"],
-    //   ["./img/galeria/4.webp"],
-    //   ["./img/galeria/5.webp"],
-    //   ["./img/galeria/6.webp"],
-    //   ["./img/galeria/7.webp"],
-    //   ["./img/galeria/8.webp"],
-    //   ["./img/galeria/9.webp"],
-    //   ["./img/galeria/10.webp"],
-    //   ["./img/galeria/11.webp"]
-    // );
-    // var contador = 0;
+    var imagenes = new Array(
+      ["./img/galeriaCeciAle/1.webp"],
+      ["./img/galeriaCeciAle/2.webp"],
+      ["./img/galeriaCeciAle/3.webp"],
+      ["./img/galeriaCeciAle/4.webp"],
+      ["./img/galeriaCeciAle/5.webp"],
+      ["./img/galeriaCeciAle/6.webp"],
+      ["./img/galeriaCeciAle/7.webp"],
+      ["./img/galeriaCeciAle/8.webp"],
+      ["./img/galeriaCeciAle/9.webp"],
+      ["./img/galeriaCeciAle/10.webp"],
+      ["./img/galeriaCeciAle/11.webp"]
+    );
+    var contador = 0;
   
-    // function cambiarImagenes() {
-    //   contador++;
-    //   const foto = document.getElementById("imagen");
-    //   foto.style.backgroundImage = `url(${imagenes[contador % imagenes.length]})`;
-    // }
+    function cambiarImagenes() {
+      contador++;
+      const foto = document.getElementById("imagen");
+      foto.style.backgroundImage = `url(${imagenes[contador % imagenes.length]})`;
+    }
   
-    // cambiarImagenes();
+    cambiarImagenes();
   
-    // setInterval(cambiarImagenes, 3000);
+    setInterval(cambiarImagenes, 3000);
     ////////////////////////////////////////////////////
 
     ///////////////// CUENTA REGRESIVA /////////////////
