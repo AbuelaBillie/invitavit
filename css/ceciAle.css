@@ -164,6 +164,9 @@ h3{
     .contDatosBancarios p{
         font-size: 1.1rem;
     }
+    .galeriaFotos{
+        width: 50%;
+    }
     .separadorInicio{
         height: 21rem;
     }
