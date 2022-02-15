@@ -13,16 +13,23 @@ p, #reloj p, .banner p,
 h1{
   font-family: "Great Vibes", cursive;
     font-size: 3rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgb(0, 0, 0);
 }
 .textoBanner{
   justify-content:center;
-  margin-bottom: 0;
-  height: 22rem;
+  margin-bottom: 9rem;
+  height: 25rem;
 }
 .textoBanner h2{
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase ;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgb(0, 0, 0);
+}
+.textoBanner p{
+ font-size: 1.1rem;
+ 
 }
 .btnAudio{
     background-color: #c79b33;
@@ -31,8 +38,10 @@ h1{
       color: black;
   }
 .banner {
-    background-image: none;
-  }
+    background-image: url("../img/galeriaEliana/2.webp");
+    height: 35rem;
+  background-size: cover;
+}
   .banner .separadorInicio{
     margin-top: 3rem;
   }
@@ -73,6 +82,7 @@ h1{
   background-color: #c9a145;
   border: none;
   border-radius: .2rem;
+  margin-top: 2rem;
 }
 .contDatosBancarios span{
   margin-right: 1rem;
@@ -96,6 +106,9 @@ h1{
 }
 .navMenu li a{
   color:#c9b27e;
+}
+.navMenu{
+  background-color: #111;
 }
 .instagram {
     background: #c9b27e;
