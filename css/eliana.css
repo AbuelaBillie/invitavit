@@ -142,5 +142,15 @@ h1{
   .textoBanner h2{
     font-size: 2rem;
 }
+.textoBanner{
+  margin-top: 45rem;
+}
+.textoBanner p{
+  font-size: 1.5rem;
+}
+.banner {
+  height: 60rem;
+background-size: contain;
+}
 }
 
