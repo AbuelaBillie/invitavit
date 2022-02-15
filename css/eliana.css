@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'GoodVibrationsROB_Script';
-    src:url('../fonts/GoodVibrationsROB_Script.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
 html {
   background-color: #111;
 }
@@ -17,8 +11,13 @@ p, #reloj p, .banner p,
   color: #c9b27e;
 }
 h1{
-    font-family: 'GoodVibrationsROB_Script';
+  font-family: "Great Vibes", cursive;
     font-size: 3rem;
+}
+.textoBanner{
+  justify-content:center;
+  margin-bottom: 0;
+  height: 22rem;
 }
 .textoBanner h2{
     font-family: "Montserrat", sans-serif;
@@ -34,24 +33,69 @@ h1{
 .banner {
     background-image: none;
   }
+  .banner .separadorInicio{
+    margin-top: 3rem;
+  }
+  .banner p{
+    margin-top: 0rem;
+  }
+  .separadorFin{
+    margin-bottom: 3rem;
+  }
+ .dondeCuando h3{
+   margin-top: 1rem;
+ } 
+ .precioTarjeta{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  margin-top: 5rem;
+ }
+ .precioTarjeta img{
+   margin: 1rem auto;
+   width: 10rem;
+ }
+ .precioTarjeta span{
+   font-weight: bold;
+   margin-right: 1rem;
+ }
+ .precioTarjeta p{
+   padding: .2rem;
+ }
+ #aclaracionPagos{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: .8rem;
+  margin-top: 1rem;
+  padding: 2rem;
+ }
 .btnDatosBancarios {
   background-color: #c9a145;
+  border: none;
+  border-radius: .2rem;
+}
+.contDatosBancarios span{
+  margin-right: 1rem;
 }
 .separadorInicio {
-  background-image: url("../img/galeriaEliana/ornamentaEliana.png");
+  background-image: url("../img/galeriaEliana/ornamenta1.png");
 }
 .separadorFin {
-  background-image: url("../img/galeriaEliana/ornamentaEliana.png");
+  background-image: url("../img/galeriaEliana/ornamenta1.png");
 }
 .btnWhatsapp{
     background-color: #c9a145;
     color: black;
+    border-radius: .2;
 }
 .btnWhatsapp i{
     color: black;
 }
 .navBar{
     background-color: #c79b33;
+}
+.navMenu li a{
+  color:#c9b27e;
 }
 .instagram {
     background: #c9b27e;
@@ -64,3 +108,21 @@ h1{
 .instagram a{
     color: black;
 }
+@media screen and (min-width: 768px) {
+  .navMenu {
+    background-color: #c79b33;
+  }
+  .navMenu li a{
+    color: black;
+  }
+  .navMenu li a:hover {
+    color: white;
+  }
+  h1{
+    font-size: 5rem;
+  }
+  .textoBanner h2{
+    font-size: 2rem;
+}
+}
+
