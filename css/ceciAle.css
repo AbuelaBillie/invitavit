@@ -46,7 +46,11 @@ h3{
     color: black;
     text-shadow: none;
 }
+#reloj{
+    z-index: 999;
+}
 .separadorInicio{
+    z-index: 1;
     background-image: url("../img/galeriaCeciAle/flores.png");
     height: 15rem;
 }
@@ -157,6 +161,9 @@ h3{
         margin-top: 175rem;
         margin-left: -15rem;
         background-position-x: 0rem;
+    }
+    .regalos{
+        width: 53%;
     } 
     .regalos p{
         font-size: 1.1rem;
