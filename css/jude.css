@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+h3{
+    font-family: 'Tangerine', cursive;
+    font-size: 3rem;
+    color: #f594b2;
+}
+h4, h5, span{
+    color: #f594b2;   
+}
+.navMenu{
+    background-color: #ffbed3;
+}
+.navBar{
+    color: #e04979; 
+}
+.btnAudio{
+    background-color: #e04979; 
+}
+.textoBanner h1, h2{
+    text-shadow: none;
+    color: #e04979;
+}
+.textoBanner h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 9rem;
+    margin-left: -3rem;
+    color: #e04979; 
+}
+.textoBanner h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.banner {
+    background-image: url("../img/galeriaJude/portadaJude.png");
+    background-size: auto;
+
+  }
+  .banner p{
+      color:#f594b2;
+      text-shadow: none;
+  }
+  .separadorInicio{
+    background-image: url("../img/galeriaJude/ornamentaJude.png");
+    height: 12rem;
+    width: 23rem;
+} 
+.separadorFin{
+    background-image: url("../img/galeriaJude/ornamentaJude.png");
+    height: 12rem;
+    width: 23rem;
+} 
+ .btnWhatsapp{
+     border: none;
+ } 
+  @media screen and (min-width: 768px) {
+      .banner{
+          height: 30rem;
+      }
+    .dondeCuando img {
+        height: 20rem;
+      } 
+  }
