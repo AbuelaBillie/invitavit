@@ -55,7 +55,7 @@ window.addEventListener("load", function () {
       }, 1000);
     };
   
-    countdown("May 23 2022 21:30:00 GMT-0300", "reloj", "0 días restantes");
+    countdown("Apr 15 2022 21:00:00 GMT-0300", "reloj", "0 días restantes");
     ////////////////////////////////////////////////////
   
     ///////////////// CONFIRMACION WSP /////////////////

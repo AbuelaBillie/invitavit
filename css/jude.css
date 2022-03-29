@@ -1,64 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@font-face {
+    font-family: 'allegro';
+    src:url('../fonts/allegro-regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-h3{
-    font-family: 'Tangerine', cursive;
-    font-size: 3rem;
-    color: #f594b2;
-}
-h4, h5, span{
-    color: #f594b2;   
-}
-.navMenu{
-    background-color: #ffbed3;
-}
-.navBar{
-    color: #e04979; 
-}
-.btnAudio{
-    background-color: #e04979; 
-}
-.textoBanner h1, h2{
-    text-shadow: none;
-    color: #e04979;
+.separadorInicio, .separadorFin{
+    background-image: url("../img/galeriaJude/ornamentaJude.png");
 }
 .textoBanner h1{
-    font-family: 'Tangerine', cursive;
-    font-size: 9rem;
-    margin-left: -3rem;
-    color: #e04979; 
-}
+ 
+    font-family: allegro;
+    font-size: 8rem;
+    margin-top: 13rem;
+    margin-left: -4rem;
+} 
 .textoBanner h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-family: allegro;
+    font-size: 3rem;
+}
+h3{
+    color: #b268b7;
+    font-family: allegro;
+    font-size: 2.7rem;
+}
+.dondeCuando h5{
+    font-family: allegro;
+    font-size: 3rem;
+}
+.dondeCuando span{
+    font-family: allegro;
+    font-size: 1.8rem;
 }
 
+#reloj span{
+ color: white;
+}
+.dondeCuando h4, .dondeCuando h5{
+    text-transform: none;
+  }
+h5, span{
+    color: #b268b7;
+}
+h5{
+    margin-left: -0.8rem;
+}
+.navBar{
+    color: #b268b7;
+}
+.navMenu{
+    background-color: #b268b7;
+}
+.btnAudio{
+    background-color: #b268b7;
+}
 .banner {
-    background-image: url("../img/galeriaJude/portadaJude.png");
-    background-size: auto;
-
+height: 35rem;
+background-image: url("../img/galeriaJude/2.webp");
+  background-size: cover;
   }
-  .banner p{
-      color:#f594b2;
-      text-shadow: none;
-  }
-  .separadorInicio{
-    background-image: url("../img/galeriaJude/ornamentaJude.png");
-    height: 12rem;
-    width: 23rem;
-} 
-.separadorFin{
-    background-image: url("../img/galeriaJude/ornamentaJude.png");
-    height: 12rem;
-    width: 23rem;
-} 
  .btnWhatsapp{
      border: none;
  } 
-  @media screen and (min-width: 768px) {
-      .banner{
-          height: 30rem;
-      }
-    .dondeCuando img {
-        height: 20rem;
+ @media screen and (min-width: 768px) {
+    .banner {
+        background-image: url("../img/galeriaJude/backgroundImagen.webp"); ;
+        height: 50rem;
+        width: 50rem;
+        background-size: cover;
       } 
   }
