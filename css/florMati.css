@@ -145,11 +145,11 @@ h3{
     .banner{
         margin-top: 0rem;
         width: 40rem;
-        height: 45rem;
+        height: 60rem;
         padding-top: 2rem;
     }
     .textoBanner{
-        height: 25rem;
+        height: 40rem;
         justify-content: space-between;
         margin-top: 5rem;
     }
