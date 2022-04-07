@@ -1,42 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+html{
+    background-color: #151515;
+    color: white;
+}
 *{
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'Playfair Display', serif;
 }
 h3{
     font-size: 1.5rem;
-    color: #ad9f67;
-    font-family: 'Xanh Mono', monospace;
+    color: #f7ca6f;
+    font-family: 'Playfair Display', serif;
     text-transform: uppercase;
 }
 .banner{
-    background-image: url("../img/galeriaCeciAle/flores.png");
+    background-image: none;
+    width: 90%;
+    border-color: white;
+    border:solid;
+    margin: 1rem auto;
+}
+.anillos{
+    background-image: url("../img/galeriaFlorMati/anillos.png");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 30rem;
-    background-position: top;
+    background-size: contain;
+    width: 5rem;
+    height: 5rem;
 }
 .textoBanner{
     height: 15rem;
-    justify-content: space-evenly;
-    margin-top: 9rem;
+    justify-content: space-between;
+    margin-top: 4rem;
+   
 }
 
 .textoBanner h1{
     padding: .5rem;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
+    text-align: center;
     text-shadow: none;
-    color: #222;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0rem 0rem 1rem rgba(1, 1, 1, 0.3);
 }
 .textoBanner h2{
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
-    margin-top: 7rem;
+
     text-shadow: none;
-    color: black;
+    color: white;
 }
 .banner p{
-    color: black;
+    color: white;
     text-shadow: none;
 }
 #reloj{
@@ -44,7 +56,7 @@ h3{
 }
 .separadorInicio{
     z-index: 1;
-    background-image: url("../img/galeriaCeciAle/flores.png");
+    background-image: url("../img/galeriaFlorMati/ornamenta1florMati.png");
     height: 15rem;
 }
 .nombreSalon{
@@ -52,30 +64,34 @@ h3{
 }
 .parroquia{
     margin-top: 1rem;
-    padding-top: 7rem;
-    background-image: url("../img/galeriaCeciAle/ornamentaIzquierda.png");
+    /* padding-top: 0rem; */
+    background-image: url("../img/galeriaFlorMati/ornamentaIzquierdaFlorMati.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: -14rem;
+    background-position-x: -6rem;
 }
 .salon{
-    background-image: url("../img/galeriaCeciAle/ornamentaLinear.png");
+    background-image: url("../img/galeriaFlorMati/ornamentaDerechaFlorMati.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: 10rem;
+    background-position-x: 4rem;
+    background-position-y: -2rem ;
     
 }
+.dondeCuando a{
+    color: white;
+}
 .decoracion{
-    width: 30rem;
-    height: 30rem;
+    width: 25rem;
+    height: 25rem;
     position: absolute;
-    margin-top: 87rem;
-    margin-left: -10rem;
+    margin-top: 83rem;
+    margin-left: 0rem;
     z-index: -1;
-    background-image: url("../img/galeriaCeciAle/ornamentaLinear.png");
+    background-image: url("../img/galeriaFlorMati/ornamentaCostadoflorMati.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: -5rem;
+    background-position-x: -10rem;
 }
 .regalos{
     margin-bottom: 2rem;
@@ -89,7 +105,6 @@ h3{
     font-size: .5rem;
 }
 .contDatosBancarios p{
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 .contDatosBancarios .textoBanco{
@@ -105,7 +120,7 @@ h3{
     margin-bottom: 1rem;
 }
 .btnAudio{
-    background-color: #222;;
+    background-color: #f7ca6f;
 }
 .dondeCuando{
     width: 100%;
@@ -122,16 +137,17 @@ h3{
     }
     .textoBanner h2{
         font-size: 2rem;
-        margin-bottom: 5rem;
     }
     .banner{
-        background-size: 50rem;
-        padding-top: 11rem;
+        margin-top: 0rem;
+        width: 40rem;
+        height: 45rem;
+        padding-top: 2rem;
     }
     .textoBanner{
-        height: 15rem;
-        justify-content: space-evenly;
-        margin-top: 9rem;
+        height: 25rem;
+        justify-content: space-between;
+        margin-top: 5rem;
     }
     
     .banner p{
@@ -157,15 +173,15 @@ h3{
       }
     .parroquia{
         background-size: 30rem;
-        background-position-x: 0rem;
-        background-position-y: 7rem;
+        background-position-x: 29rem;
+        background-position-y: 2rem;
     }
     .salon{
         padding-top: 5rem;
         margin-top: 2rem;
         background-size: 30rem;
-        background-position-x: 100%;
-        background-position-y: -0.7rem;
+        background-position-x: 53rem;
+        background-position-y: 2rem;
         
     }
     .vestimenta{
@@ -174,8 +190,8 @@ h3{
         align-items: center;
     }
     .decoracion{
-        margin-top: 175rem;
-        margin-left: -15rem;
+        margin-top: 167rem;
+        margin-left: -19rem;
         background-position-x: 0rem;
     }
     .regalos{
