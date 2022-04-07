@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/florMati.css">
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/sliderFlorMati.js"></script>
+    <title>Invitavit</title>
+  </head>
+  <body>
+    <header>
+      <!-- Barra navegación -->
+    <nav>
+      <span class="navBar" id="btnMenu"><i class="fas fa-bars"></i></span>
+        <ul class="navMenu">
+          <!-- <li><a href="./index.html#galeria">Galería</a></li> -->
+          <li><a href="./florMati.html#confirmacion">Confirmar asistencia</a></li>
+        </ul>
+      </nav>
+      <audio id="cancion" loop="loop" src="./aud/songFlorMati.mp3"></audio>
+      <button class="btnAudio mute"><i class="fas fa-volume-mute"></i></button>
+      <!-- fin Barra navegación -->
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="textoBanner">
+          <h1>FLOR & MATI</h1>
+          <h2>NOS CASAMOS</h2>
+        </div>
+        <p>FALTAN</p>
+          <div id="reloj">
+          </div>
+      </section>
+      <!-- Fin banner -->
+      <!-- Informacion -->
+      <section class="info">
+          <!-- Donde y cuando -->
+          <article class="dondeCuando parroquia">
+            <h3>Dónde y cuándo</h3>
+            <h4>CEREMONIA RELIGIOSA</h4>
+            <img src="./img/galeriaFlorMati/parroquiaFlorMati.webp" alt="Parroquia San Pablo" />
+            <h4 class="nombreSalon">PARROQUIA SAN PABLO</h4>
+            <div class="textoFechaLugar">
+              <p class="cuando"><span>Cuándo:</span>28/5/2022 - 17:00 Hs</p>
+            <p class="direccion">
+              <span>Dirección:</span>Uruguay 138 - Cipolletti
+            </p>
+            </div>
+    
+            <a href="https://goo.gl/maps/PMmXhiXceb7Ydauk6" target="_blank" class="btnMapa">Abrir mapa</a>
+            <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=CEREMONIA+RELIGIOSA+Flor+y+Mati&dates=20220528T170000/20220528T180000&details=Se+celebra+la+ceremonia+religiosa+de+Flor+y+Mati+en+la+parroquia+San+Pablo&location=Uruguay+138+-+Cipolletti&sf=true&output=xml" target="_blank" class="btnFecha">Agendar fecha</a>
+  
+            <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.200984683204!2d-67.98683814847901!3d-38.942236607123306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a30f64fb562d1%3A0x36a6c179c4a41778!2sParroquia%20San%20Pablo!5e0!3m2!1ses!2sar!4v1649285071729!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+          </article>
+        <article class="dondeCuando salon">
+          <h4>FIESTA</h4>
+          <img src="./img/galeriaFlorMati/salonFlorMati.webp" alt="Salón los paraisos" />
+          <h4 class="nombreSalon">SALÓN SOTTO VOCE</h4>
+          <h5>¡Te esperamos!</h5>
+          <div class="textoFechaLugar">
+            <p class="cuando"><span>Cuándo:</span>28/5/2022 - 19:00 Hs</p>
+          <p class="direccion">
+            <span>Dirección:</span>Maestro Don Juan Espinosa 3012 - Cipolletti
+          </p>
+          </div>
+  
+          <a href="https://g.page/SottoVoceLaJustina?share" target="_blank" class="btnMapa">Abrir mapa</a>
+          <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=FIESTA+CASAMIENTO+Flor+y+Mati&dates=20220528T190000/20220528T230000&details=Fiesta+de+casamiento+de+Flor+y+Mati+en+el+salón+Sotto+Voce&location=Maestro+Don+Juan+Espinosa+3012&sf=true&output=xml" target="_blank" class="btnFecha">Agendar fecha</a>
+
+          <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.3230786458776!2d-67.96179268464833!3d-38.93944697956425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a307df3849c9d%3A0xe3cd5fe7754fd685!2sSotto%20Voce!5e0!3m2!1ses!2sar!4v1649285250108!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        </article>
+        <!-- Fin donde y cuando -->
+
+        <!-- Vestimenta -->
+        <article class="vestimenta">
+            <h3>Dress Code</h3>
+            <img src="./img/galeriaCeciAle/iconDressCode.png" alt="vestimenta semi formal">
+            <p>Semi formal</p>
+        </article>
+        <!-- Fin vestimenta -->
+        <div class="decoracion"></div>
+        <!-- Regalos -->
+        <article class="regalos">
+            <h3>Regalos</h3>
+            <p>Nuestro mejor regalo es tu presencia. Pero si querés tenér un detalle con nosotros qué mejor que una ayudita!</p>
+        <!-- <ul>
+          <li><i class="fas fa-gift"></i>Ropa</li>
+          <li><i class="fas fa-gift"></i>Libros</li>
+          <li><i class="fas fa-gift"></i>Heladera</li>
+        </ul> -->
+        <button class="btnDatosBancarios"><i class="fas fa-gift"></i>Datos Bancarios</button>
+        <div class="contDatosBancarios oculto">
+          <p><span>CBU:</span> 1910093355109303948649</p>
+          <p><span>MERCADO PAGO:</span> 0000003100089699074626</p>
+          <p><span>BITCOINS:</span> 1Avy6nanogM8m9wou5toCaJAD6KvAAVzHa</p>
+          <p class="textoBanco">EN EL SALÓN DISPONEMOS DE UN BUZÓN PARA SOBRES CON EFECTIVO</p>
+        </div>
+        </article>
+        <!-- Fin regalos -->
+
+      </section>
+      <!-- Fin Informacion -->
+      <!-- Galeria -->
+      <section id="galeria" class="galeria">
+        <article class="instagram">
+          <i class="fab fa-instagram"></i>
+          <p class="hashtag">#BodaFlorLossoYMatiKruger</p>
+          <a href="https://www.instagram.com/explore/tags/bodaflorlossoymatikruger/" target="_blank">Ver en Instagram</a>
+        </article>
+        <article class="galeriaFotos">
+          <div class="fotos" id="imagen"></div>
+        </article>
+      </section>
+      <!-- Fin galeria -->
+      <div class="separadorInicio"></div>
+       <!-- Confirmacion asistencia -->
+       <section id="confirmacion" class="asistencia">
+        <h3>Confirmar asistencia</h3>
+        <p>Envianos un mensaje confirmando tu asistencia e indicanos si tenés algún tipo de restricción alimentaria para adaptar tu menú!</p>
+        <article class="menuComida">
+            <h3>Menú</h3>
+            <select id="menuComida">
+              <option value="0">Menú clásico</option>
+              <option value="1">Menú vegetariano</option>
+              <option value="2">Menú celíaco</option>
+              <option value="3">Menú vegano</option>
+            </select>
+        </article>
+        <button class="btnWhatsapp"><i class="fab fa-whatsapp"></i>Confirmar ahora</button>
+    </section>
+    <!-- Fin confirmacion asistencia -->
+    </main>
+    <footer>
+      <p>invitavit.online 2022</p>
+    </footer>
+  </body>
+</html>
