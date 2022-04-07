@@ -76,14 +76,13 @@ h3{
     background-size: contain;
     background-position-x: 8rem;
     background-position-y: -.5rem ;
-    
 }
 .dondeCuando a{
     color: white;
 }
 .decoracion{
-    width: 25rem;
-    height: 25rem;
+    width: 100%;
+    height: 22rem;
     position: absolute;
     margin-top: 83rem;
     margin-left: 0rem;
@@ -97,7 +96,7 @@ h3{
     margin-bottom: 2rem;
 }
 .btnDatosBancarios i{
-    color: #222;;
+    color: #222;
 }
 .contDatosBancarios{
     width: 95%;
