@@ -18,6 +18,8 @@ h3{
     border-color: white;
     border:solid;
     margin: 1rem auto;
+    height: 35rem;
+    padding-top: 0rem;
 }
 .anillos{
     background-image: url("../img/galeriaFlorMati/anillos.png");
@@ -28,7 +30,7 @@ h3{
     height: 5rem;
 }
 .textoBanner{
-    height: 15rem;
+    height: 20rem;
     justify-content: space-between;
     margin-top: 4rem;
    
@@ -36,13 +38,16 @@ h3{
 
 .textoBanner h1{
     padding: .5rem;
-    font-size: 3.2rem;
+    font-size: 3.1rem;
     text-align: center;
     text-shadow: none;
 }
+.textoBanner h1 span{
+
+}
 .textoBanner h2{
     font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 
     text-shadow: none;
     color: white;

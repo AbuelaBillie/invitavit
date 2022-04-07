@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/slider.js"></script>
+    <title>Invitavit</title>
+  </head>
+  <body>
+    <header>
+      <!-- Barra navegación -->
+      <span class="navBar" id="btnMenu"><i class="fas fa-bars"></i></span>
+        <ul class="navMenu">
+          <li><a href="./brisa.html#confirmacion">Confirmar asistencia</a></li>
+        </ul>
+      </nav>
+      <audio id="cancion" loop="loop" src="./aud/Song.mp3"></audio>
+      <button class="btnAudio mute"><i class="fas fa-volume-mute"></i></button>
+      <!-- fin Barra navegación -->
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="textoBanner">
+          <h1>Brisa</h1>
+          <h2>Mis 15 años</h2>
+        </div>
+        <p>FALTAN</p>
+          <div id="reloj">
+          </div>
+      </section>
+      <!-- Fin banner -->
+      <div class="separadorInicio"></div>
+      <!-- Informacion -->
+      <section class="info">
+          <!-- Donde y cuando -->
+        <article class="dondeCuando">
+          <h3>Dónde y cuándo</h3>
+          <h4>FIESTA</h4>
+          <img src="./img/salon.webp" alt="Complejo new Cubix" />
+          <h4 class="nombreSalon">LA PALOMA EVENTOS, SALÓN 3 RANELAGH</h4>
+          <h5>¡Te esperamos!</h5>
+          <div class="textoFechaLugar">
+            <p class="cuando"><span>Cuándo:</span>12/03/2022 - 22:00 Hs</p>
+          <p class="direccion">
+            <span>Dirección:</span>Av. De la Falsedad 4321 - CABA
+          </p>
+          </div>
+  
+            <a href="https://goo.gl/maps/7GcyR8mxRJdorp6h8" target="_blank" class="btnMapa">Abrir mapa</a>
+          <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=FIESTA+CASAMIENTO+Quique+y+Johy&dates=20220312T223000/20220312T233000&details=Fiesta+de+casamiento+de+Quique+y+Johy+en+el+complejo+new+cubix+de+ramos+mejia&location=Av.+General+Enrique+Mosconi+2271,+B1704HZC+San+Justo,+Provincia+de+Buenos+Aires&sf=true&output=xml" target="_blank" class="btnFecha">Agendar fecha</a>
+
+          <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13125.862619126976!2d-58.5546955!3d-34.6681953!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa579b1a01aa8c47!2sComplejo%20New%20Cubix!5e0!3m2!1ses!2sar!4v1641954307979!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          
+        </article>
+        <!-- Fin donde y cuando -->
+
+        <!-- Vestimenta -->
+        <article class="vestimenta">
+            <h3>Dress Code</h3>
+            <img src="./img/iconDressCode.png" alt="vestimenta elegante sport">
+            <p>Elegante</p>
+        </article>
+        <!-- Fin vestimenta -->
+
+        <!-- Regalos -->
+        <article class="regalos">
+            <h3>Regalos</h3>
+            <p>El regalo es opcional, la presencia es obligatoria. Pero si querés tener un detalle con nosotros, qué mejor regalo que una ayudita para nuestra luna de miel.</p>
+        <!-- <ul>
+          <li><i class="fas fa-gift"></i>Ropa</li>
+          <li><i class="fas fa-gift"></i>Libros</li>
+          <li><i class="fas fa-gift"></i>Heladera</li>
+        </ul> -->
+        <button class="btnDatosBancarios"><i class="fas fa-gift"></i>Datos bancarios</button>
+        <div class="contDatosBancarios oculto">
+          <p><span>Banco:</span> Brubank</p>
+          <p><span>CBU:</span> 14300017 - 13005065410014</p>
+          <p><span>Alias:</span> Abuela.Billie</p>
+          <p><span>CUIL:</span> 27-40910482-2</p>
+        </div>
+        </article>
+        <!-- Fin regalos -->
+
+      </section>
+      <!-- Fin Informacion -->
+      <div class="separadorFin"></div>
+      <!-- Galeria -->
+      <section id="galeria" class="galeria">
+        <!-- <h3>Un pedacito de nuestra historia...</h3> -->
+        <article class="instagram">
+          <i class="fab fa-instagram"></i>
+          <p class="hashtag">#Casamiento</p>
+          <a href="https://www.instagram.com/explore/tags/casamiento/" target="_blank">Ver en Instagram</a>
+        </article>
+        <article class="galeriaFotos">
+          <div class="fotos" id="imagen"></div>
+        </article>
+      </section>
+      <!-- Fin galeria -->
+      <div class="separadorInicio"></div>
+      <!-- Confirmacion asistencia -->
+      <section id="confirmacion" class="asistencia">
+          <h3>Confirmar asistencia</h3>
+          <p>Envianos un mensaje confirmando tu asistencia e indicanos si tenés algún tipo de restricción alimentaria para adaptar tu menú!</p>
+          <a class="btnWhatsapp"
+                href="https://wa.me/541166485097/?text= Hola, confirmo mi asistencia! soy ..."
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i>Confirmar ahora</a
+              >
+      </section>
+      <!-- Fin confirmacion asistencia -->
+      <div class="separadorFin"></div>
+    </main>
+    <footer>
+      <p>invitavit.online 2022</p>
+    </footer>
+  </body>
+</html>
