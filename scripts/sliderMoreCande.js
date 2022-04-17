@@ -1,28 +1,28 @@
 window.addEventListener("load", function () {
     ////////////////// SLIDER IMAGENES /////////////////
-    // var imagenes = new Array(
-    //   ["./img/galeriaBrisa/1.webp"],
-    //   ["./img/galeriaBrisa/2.webp"],
-    //   ["./img/galeriaBrisa/3.webp"],
-    //   ["./img/galeriaBrisa/4.webp"],
-    //   ["./img/galeriaBrisa/5.webp"],
-    //   ["./img/galeriaBrisa/6.webp"],
-    //   ["./img/galeriaBrisa/7.webp"],
-    //   ["./img/galeriaBrisa/8.webp"],
-    //   ["./img/galeriaBrisa/9.webp"],
-    //   ["./img/galeriaBrisa/10.webp"]
-    // );
-    // var contador = 0;
+    var imagenes = new Array(
+      ["./img/galeriaMoreCande/1.webp"],
+      ["./img/galeriaMoreCande/2.webp"],
+      ["./img/galeriaMoreCande/3.webp"],
+      ["./img/galeriaMoreCande/4.webp"],
+      ["./img/galeriaMoreCande/5.webp"],
+      ["./img/galeriaMoreCande/6.webp"],
+      ["./img/galeriaMoreCande/7.webp"],
+      ["./img/galeriaMoreCande/8.webp"],
+      ["./img/galeriaMoreCande/9.webp"],
+      ["./img/galeriaMoreCande/10.webp"]
+    );
+    var contador = 0;
   
-    // function cambiarImagenes() {
-    //   contador++;
-    //   const foto = document.getElementById("imagen");
-    //   foto.style.backgroundImage = `url(${imagenes[contador % imagenes.length]})`;
-    // }
+    function cambiarImagenes() {
+      contador++;
+      const foto = document.getElementById("imagen");
+      foto.style.backgroundImage = `url(${imagenes[contador % imagenes.length]})`;
+    }
   
-    // cambiarImagenes();
+    cambiarImagenes();
   
-    // setInterval(cambiarImagenes, 3000);
+    setInterval(cambiarImagenes, 3000);
     ////////////////////////////////////////////////////
 
     ///////////////// CUENTA REGRESIVA /////////////////
