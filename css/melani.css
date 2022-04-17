@@ -33,4 +33,12 @@
           height: 50rem;
           background-size: contain;
       }
+      .vestimenta img{
+        height: auto;
+        object-fit: contain;
+      }
+      .regalos img{
+          height: auto;
+          object-fit: contain;
+      }
   }
