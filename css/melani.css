@@ -1,0 +1,36 @@
+.banner {
+    width: 100%;
+    height: 30rem;
+    background-image: url("../img/galeriaMelani/portadaMelani.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  h3{
+      color: #d4a8a8;
+  }
+  .separadorInicio{
+      background-image: url("../img/ornamentaFrida.png");
+      height: 10rem;
+  }
+  .separadorFin{
+    background-image: url("../img/ornamentaFrida.png");
+    height: 10rem;
+    transform: none;
+}
+.regalos img{
+    margin-top: 1rem;
+    width: 60%;
+}
+#btnMenu{
+    color:#d4a8a8;
+}
+.navMenu{
+    background-color: #d4a8a8;
+}
+  @media screen and (min-width: 768px) {
+      .banner{
+          height: 50rem;
+          background-size: contain;
+      }
+  }
