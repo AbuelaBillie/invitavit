@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/avi.css">
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/sliderAvi.js"></script>
+    <title>Invitavit</title>
+  </head>
+  <body>
+    <header>
+      <!-- Barra navegación -->
+      <span class="navBar" id="btnMenu"><i class="fas fa-bars"></i></span>
+        <ul class="navMenu">
+          <li><a href="./avril.html#confirmacion">Confirmar asistencia</a></li>
+        </ul>
+      </nav>
+      <audio id="cancion" loop="loop" src="./aud/songAvi.mp3"></audio>
+      <button class="btnAudio mute"><i class="fas fa-volume-mute"></i></button>
+      <!-- fin Barra navegación -->
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="textoBanner">
+          <h1>Avril</h1>
+          <h2>Mis 15 años</h2>
+        </div>
+        <p>FALTAN</p>
+          <div id="reloj">
+          </div>
+      </section>
+      <!-- Fin banner -->
+      <div class="separadorInicio"></div>
+      <!-- Informacion -->
+      <section class="info">
+          <!-- Donde y cuando -->
+        <article class="dondeCuando">
+          <h3>Dónde y cuándo</h3>
+          <h4>CENA</h4>
+          <img src="./img/galeriaAvi/salonAvril.webp" alt="El nuevo miguelito" />
+          <h4 class="nombreSalon">PARRILLA EL NUEVO MIGUELITO</h4>
+          <h5>¡Te esperamos!</h5>
+          <div class="textoFechaLugar">
+            <p class="cuando"><span>Cuándo:</span> 1 de mayo de 2022 - 20:00Hs</p>
+          <p class="direccion">
+            <span>Dirección:</span>Zañartu 486 - CABA
+          </p>
+          </div>
+  
+            <a href="https://goo.gl/maps/fYtDrjd1v7MNSoL56" target="_blank" class="btnMapa">Abrir mapa</a>
+          <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=CUMPLE+15+de+Avi&dates=20220501T200000/20220501T230000&details=Cumpleaños+de+15+de+Avi+en+el+nuevo+Miguelito&location=Zañartu+486+-+CABA&sf=true&output=xml" target="_blank" class="btnFecha">Agendar fecha</a>
+
+          <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6469035495593!2d-58.427321484769365!3d-34.638362280450565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbaf1202553b%3A0xfc3be333601f6add!2sEl%20Nuevo%20Miguelito!5e0!3m2!1ses!2sar!4v1650238118394!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        </article>
+        <!-- Fin donde y cuando -->
+
+        <!-- Vestimenta -->
+        <article class="vestimenta">
+            <h3>Dress Code</h3>
+            <img src="./img/galeriaAvi/iconDressCodeAvi.png" alt="vestimenta casual">
+            <p>Casual</p>
+        </article>
+        <!-- Fin vestimenta -->
+
+        <!-- Regalos -->
+        <article class="regalos">
+            <!-- <h3>Regalos</h3>
+            <p>El regalo es opcional, la presencia es obligatoria. Pero si querés tener un detalle con nosotros, qué mejor regalo que una ayudita para nuestra luna de miel.</p> -->
+        <!-- <ul>
+          <li><i class="fas fa-gift"></i>Ropa</li>
+          <li><i class="fas fa-gift"></i>Libros</li>
+          <li><i class="fas fa-gift"></i>Heladera</li>
+        </ul> -->
+        <button class="btnDatosBancarios oculto"><i class="fas fa-gift"></i>Datos bancarios</button>
+        <div class="contDatosBancarios oculto">
+          <p><span>Banco:</span> Brubank</p>
+          <p><span>CBU:</span> 14300017 - 13005065410014</p>
+          <p><span>Alias:</span> Abuela.Billie</p>
+          <p><span>CUIL:</span> 27-40910482-2</p>
+        </div>
+        </article>
+        <!-- Fin regalos -->
+
+      </section>
+      <!-- Fin Informacion -->
+      <div class="separadorFin"></div>
+      <!-- Galeria -->
+      <section id="galeria" class="galeria">
+        <!-- <h3>Un pedacito de nuestra historia...</h3> -->
+        <article class="instagram">
+          <i class="fab fa-instagram"></i>
+          <p class="hashtag">#AviXVaños</p>
+          <a href="https://www.instagram.com/explore/tags/avixvaños/" target="_blank">Ver en Instagram</a>
+        </article>
+        <article class="galeriaFotos">
+          <div class="fotos" id="imagen"></div>
+        </article>
+      </section>
+      <!-- Fin galeria -->
+      <div class="separadorInicio"></div>
+      <!-- Confirmacion asistencia -->
+      <section id="confirmacion" class="asistencia">
+          <h3>Confirmar asistencia</h3>
+          <p>Envianos un mensaje confirmando tu asistencia!</p>
+          <a class="btnWhatsapp"
+                href="https://wa.me/541124633664/?text= Hola, confirmo mi asistencia! soy ..."
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i>Confirmar ahora</a
+              >
+      </section>
+      <!-- Fin confirmacion asistencia -->
+      <div class="separadorFin"></div>
+    </main>
+    <footer>
+      <p>invitavit.online 2022</p>
+    </footer>
+  </body>
+</html>

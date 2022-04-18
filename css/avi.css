@@ -1,0 +1,27 @@
+.banner {
+    width: 100%;
+    height: 37rem;
+    background-image: url("../img/galeriaAvi/portadaAvi.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .separadorInicio, .separadorFin{
+    background-image: url("../img/galeriaAvi/separadorAvi.png");
+    transform: none;
+  }
+  #btnMenu, h3{
+    color: #b27cbb;
+  }
+  .btnAudio{
+      background-color: #8c4d97;
+  }
+  .navMenu{
+      background-color: #b27cbb;
+  }
+  @media screen and (min-width: 768px) {
+      .banner{
+          height: 50rem;
+          background-size: contain;
+      }
+  }
