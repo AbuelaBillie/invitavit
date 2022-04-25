@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/juanGabi.css" />
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/sliderJuanGabi.js"></script>
+    <title>Invitavit</title>
+  </head>
+  <body>
+    <header>
+      <!-- Barra navegación -->
+      <nav>
+        <span class="navBar" id="btnMenu"><i class="fas fa-bars"></i></span>
+        <ul class="navMenu">
+          <!-- <li><a href="./index.html#galeria">Galería</a></li> -->
+          <li>
+            <a href="./JuanMartinyGabi.html#confirmacion"
+              >Confirmar asistencia</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <audio id="cancion" loop="loop" src="./aud/SongJuanGabi.mp3"></audio>
+      <button class="btnAudio mute"><i class="fas fa-volume-mute"></i></button>
+      <!-- fin Barra navegación -->
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="textoBanner">
+          <h1>Juan y Gabriela</h1>
+          <h2>NOS CASAMOS</h2>
+        </div>
+        <p>FALTAN</p>
+        <div id="reloj"></div>
+      </section>
+      <!-- Fin banner -->
+      <!-- Informacion -->
+      <section class="info">
+        <!-- Donde y cuando -->
+        <article class="dondeCuando salon">
+          <h3>Dónde y cuándo</h3>
+          <h4>FIESTA</h4>
+          <img
+            src="./img/galeriaJuanGabi/salon.webp"
+            alt="Salón the garden eventos"
+          />
+          <h4 class="nombreSalon">THE GARDEN EVENTOS</h4>
+          <h5>¡Te esperamos!</h5>
+          <div class="textoFechaLugar">
+            <p class="cuando"><span>Cuándo:</span>9 de Julio - 20:30Hs</p>
+            <p class="direccion">
+              <span>Dirección:</span>Av. Juan Bautista Alverdi 4673 - CABA
+            </p>
+          </div>
+
+          <a
+            href="https://goo.gl/maps/DWc7ean3QiD7jWXM9"
+            target="_blank"
+            class="btnMapa"
+            >Abrir mapa</a
+          >
+          <a
+            href="https://www.google.com/calendar/render?action=TEMPLATE&text=FIESTA+CASAMIENTO+Juan+Martin+y+Gabriela&dates=20220709T203000/20220710T060000&details=Fiesta+de+casamiento+de+Juan+Martin+y+Gabriela+en+el+salón+the+garden+eventos&location=Av.+Juan+Bautista+Alverdi+4673+-+CABA&sf=true&output=xml"
+            target="_blank"
+            class="btnFecha"
+            >Agendar fecha</a
+          >
+
+          <iframe
+            id="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.462701218271!2d-58.49398268476935!3d-34.64301588044932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9a40eb71557%3A0x6ee375d1c74ce81c!2sTHE%20GARDEN%20EVENTOS!5e0!3m2!1ses!2sar!4v1650906040359!5m2!1ses!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </article>
+        <!-- Fin donde y cuando -->
+
+        <!-- Vestimenta -->
+        <article class="vestimenta">
+          <h3>Vestimenta</h3>
+          <img
+            src="./img/galeriaCeciAle/iconDressCode.png"
+            alt="vestimenta elegante sport"
+          />
+          <p>Elegante</p>
+        </article>
+        <!-- Fin vestimenta -->
+        <!-- Regalos -->
+        <article class="regalos">
+            <div class="separadorInicio"></div>
+          <h3>Regalos</h3>
+          <p>
+            El mejor regalo es tu presencia. Pero si querés tener un detalle con nosotros, qué mejor regalo que una ayudita!
+          </p>
+          <!-- <ul>
+          <li><i class="fas fa-gift"></i>Ropa</li>
+          <li><i class="fas fa-gift"></i>Libros</li>
+          <li><i class="fas fa-gift"></i>Heladera</li>
+        </ul> -->
+          <button class="btnDatosBancarios">
+            <i class="fas fa-gift"></i>Datos bancarios
+          </button>
+          <div class="contDatosBancarios oculto">
+            <p><span>Titular:</span> Gallardo Juan Martin</p>
+            <p><span>CBU:</span> 0720175888000037219190</p>
+            <p><span>Alias:</span> JUANMA.GABU</p>
+          </div>
+        </article>
+        <!-- Fin regalos -->
+      </section>
+      <!-- Fin Informacion -->
+      <!-- Galeria -->
+      <section id="galeria" class="galeria">
+        <article class="instagram">
+          <i class="fab fa-instagram"></i>
+          <p class="hashtag">#bodaJ&G</p>
+          <a
+            href="https://www.instagram.com/explore/tags/bodaj&g/"
+            target="_blank"
+            >Ver en Instagram</a
+          >
+        </article>
+        <article class="galeriaFotos">
+          <div class="fotos" id="imagen"></div>
+        </article>
+      </section>
+      <!-- Fin galeria -->
+      <div class="separadorInicio"></div>
+      <!-- Confirmacion asistencia -->
+      <section id="confirmacion" class="asistencia">
+        <h3>Confirmar asistencia</h3>
+        <p>¡Envianos un mail confirmando tu asistencia!</p>
+        <p class="mail">bodajuanmaygabu@gmail.com</p>
+        <a class="btnWhatsapp" href="mailto:bodajuanmaygabu@gmail.com?Subject=Confirmacion%20Asistencia"
+          target="_blank"
+          >Confirmar ahora</a
+        >
+      </section>
+      <!-- Fin confirmacion asistencia -->
+    </main>
+    <footer>
+      <p>invitavit.online 2022</p>
+    </footer>
+  </body>
+</html>

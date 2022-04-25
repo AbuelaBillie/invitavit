@@ -1,6 +1,8 @@
 window.addEventListener("load", function () {
     ////////////////// SLIDER IMAGENES /////////////////
     var imagenes = new Array(
+      ["./img/galeriaAvi/2.webp"],
+      ["./img/galeriaAvi/1.webp"],
       ["./img/galeriaAvi/portadaAvi.webp"]
     );
     var contador = 0;
