@@ -1,4 +1,5 @@
 window.addEventListener("load", function () {
+    localStorage.clear();
     ////////////////// SLIDER IMAGENES /////////////////
     var imagenes = new Array(
       ["./img/galeriaJuanGabi/1.webp"],
