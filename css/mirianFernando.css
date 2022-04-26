@@ -1,0 +1,37 @@
+.banner {
+    height: 35rem;
+    background-image: url("../img/galeriaMirianFernando/portada.webp");
+  background-size: cover;
+  }
+ .btnWhatsapp{
+     border: none;
+ } 
+ .versiculos{
+     width: 60%;
+ }
+ .versiculo{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+ }
+ .vestimenta{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .cita{
+     margin-top: .5rem;
+     font-weight: bold;
+     text-align: right;
+ }
+  @media screen and (min-width: 768px) {
+     .banner{
+        height: 50rem;
+        background-size: contain;
+     }
+     .textoBanner h1{
+        font-size: 3rem;
+     }
+  }
