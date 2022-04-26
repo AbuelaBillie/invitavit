@@ -62,9 +62,6 @@ window.addEventListener("load", function () {
     ///////////////// CONFIRMACION WSP /////////////////
     const menuComida = document.getElementById("menuComida");
     const btnWsp = document.querySelector(".btnWhatsapp");
-  
-    const invitaciones = this.document.getElementById("cant_invitaciones");
-    const cant_invitaciones = invitaciones.innerHTML.slice(1,3);
 
     menuComida.addEventListener("change", function () {
       let opcionSeleccionada = "";
@@ -81,11 +78,11 @@ window.addEventListener("load", function () {
           break;
       }
       btnWsp.addEventListener("click", function () {
-        location.href = `https://wa.me/541166407847/?text=Hola,+confirmo+la+asistencia+con+menú+${opcionSeleccionada}+somos + ${cant_invitaciones}`;
+        location.href = `https://wa.me/541166407847/?text=Hola,+confirmo+mi+asistencia+con+menú+${opcionSeleccionada}+soy+...`;
       });
     });
     btnWsp.addEventListener("click", function () {
-      location.href = `https://wa.me/541166407847/?text=Hola,+confirmo+la+asistencia+con+menú+clásico+somos +${cant_invitaciones}`;
+      location.href = `https://wa.me/541166407847/?text=Hola,+confirmo+mi+asistencia+con+menú+clásico+soy+...`;
     });
   
     ////////////////////////////////////////////////////
