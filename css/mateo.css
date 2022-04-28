@@ -63,6 +63,21 @@ h3, h5, .navBar{
   .btnWhatsapp{
       background-color: rgb(18, 181, 231);
   }
+  .instagram{
+      background-image: url("../img/galeriaMateo/fotoInsta.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      justify-content: flex-end;
+      font-weight: bolder;
+      padding-bottom: 2rem;
+      color: rgb(255, 255, 255);
+      text-shadow: 0.5rem 0.2rem .5rem rgb(0, 0, 0);;
+  }
+  .instagram a{
+      color: black;
+      text-shadow: none;
+  }
+
   @media screen and (min-width: 768px) {
       .banner{
           height: 50rem;
