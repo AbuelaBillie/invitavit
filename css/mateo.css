@@ -1,0 +1,71 @@
+h3, h5, .navBar{
+    color:rgb(18, 181, 231);
+}
+.navMenu{
+    background-color:rgb(18, 181, 231);
+}
+.separadorInicio{
+    background-image: url("../img/galeriaMateo/separadorBiblia.png");
+    background-size: contain;
+    margin: 1rem auto;
+}
+.separadorFin{
+    background-image: url("../img/galeriaMateo/ninioComunion.png");
+    background-size: contain;
+    transform: none;
+    height: 10rem;
+}
+.banner {
+    width: 100%;
+    height: 33rem;
+    background-image: url("../img/galeriaMateo/portada.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  .textoBanner{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+  .textoBanner h1{
+      font-size: 2rem;
+  }
+  .textoBanner h2{
+      font-size: 4rem;
+      text-align: center;
+  }
+  #comun{
+        margin-top: -1.5rem;
+  }
+  .dondeCuando span{
+      color: rgb(18, 181, 231);
+  }
+  .dondeCuando h5{
+      margin-bottom: 2rem;
+  }
+  .dondeCuando a{
+      border-color: rgb(18, 181, 231);
+      color: rgb(18, 181, 231);
+  }
+  .dondeCuando h3{
+      margin-bottom: 1.5rem;
+  }
+  .cuando, .direccion{
+      margin-top: .3rem;
+  }
+  .nombreSalon{
+      padding: 0rem;
+  }
+  .asistencia{
+      margin-bottom: 6rem;
+  }
+  .btnWhatsapp{
+      background-color: rgb(18, 181, 231);
+  }
+  @media screen and (min-width: 768px) {
+      .banner{
+          height: 50rem;
+          background-size: contain;
+      }
+  }

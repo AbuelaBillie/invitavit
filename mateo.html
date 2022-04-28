@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mateo.css">
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/sliderMateo.js"></script>
+    <title>Invitavit</title>
+  </head>
+  <body>
+    <header>
+      <!-- Barra navegación -->
+      <span class="navBar" id="btnMenu"><i class="fas fa-bars"></i></span>
+        <ul class="navMenu">
+          <li><a href="./mateo.html#confirmacion">Confirmar asistencia</a></li>
+        </ul>
+      </nav>
+      <!-- <audio id="cancion" loop="loop" src="./aud/songBrisa.mp3"></audio> -->
+      <button class="btnAudio mute oculto"><i class="fas fa-volume-mute"></i></button>
+      <!-- fin Barra navegación -->
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="textoBanner">
+          <h1>Mateo</h1>
+          <h2>Mi primera</h2>
+          <h2 id="comun">comunión</h2>
+        </div>
+        <p>FALTAN</p>
+          <div id="reloj">
+          </div>
+      </section>
+      <!-- Fin banner -->
+      <div class="separadorFin"></div>
+      <!-- Informacion -->
+      <section class="info">
+          <!-- Donde y cuando -->
+        <article class="dondeCuando">
+          <h3>Dónde y cuándo</h3>
+          <img src="./img/galeriaMateo/salon.webp" alt="La Lola Eventos" />
+          <h4 class="nombreSalon">LA LOLA EVENTOS</h4>
+          <div class="textoFechaLugar">
+            <p class="cuando"><span>Cuándo:</span> 2 de Julio</p>
+            <p class="cuando"><span>Horario:</span> 21:30 hs - 03:30 hs</p>
+          <p class="direccion">
+            <span>Dirección:</span>Av. Dardo Rocha 1982 - Berazategui</p>
+          </div>
+          <h5>¡Te esperamos!</h5>
+            <a href="https://goo.gl/maps/MVhP6ocFBvL5pbro6" target="_blank" class="btnMapa">Abrir mapa</a>
+          <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=PRIMERA-COMUNION-Mateo&dates=20220702T213000/20220703T033000&details=Comunión+de+Mateo+en+el+salón+La+Lola+Eventos&location=Av.+Dardo+Rocha+1982+-+Berazategui&sf=true&output=xml" target="_blank" class="btnFecha">Agendar fecha</a>
+
+          <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.9607225737955!2d-58.2348107847656!3d-34.7817640804138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a328d7a33431eb%3A0x55c31ab1bab428c0!2sLalola!5e0!3m2!1ses!2sar!4v1651117020099!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        </article>
+        <!-- Fin donde y cuando -->
+
+        <!-- Vestimenta -->
+        <!-- <article class="vestimenta">
+            <h3>Dress Code</h3>
+            <img src="./img/iconDressCode.png" alt="vestimenta elegante sport">
+            <p>Elegante</p>
+        </article> -->
+        <!-- Fin vestimenta -->
+
+        <!-- Regalos -->
+        <article class="regalos">
+            <!-- <h3>Regalos</h3>
+            <p>El regalo es opcional, la presencia es obligatoria. Pero si querés tener un detalle con nosotros, qué mejor regalo que una ayudita para nuestra luna de miel.</p> -->
+        <!-- <ul>
+          <li><i class="fas fa-gift"></i>Ropa</li>
+          <li><i class="fas fa-gift"></i>Libros</li>
+          <li><i class="fas fa-gift"></i>Heladera</li>
+        </ul> -->
+        <button class="btnDatosBancarios oculto"><i class="fas fa-gift"></i>Datos bancarios</button>
+        <div class="contDatosBancarios oculto">
+          <p><span>Banco:</span> Brubank</p>
+          <p><span>CBU:</span> 14300017 - 13005065410014</p>
+          <p><span>Alias:</span> Abuela.Billie</p>
+          <p><span>CUIL:</span> 27-40910482-2</p>
+        </div>
+        </article>
+        <!-- Fin regalos -->
+
+      </section>
+      <!-- Fin Informacion -->
+      <!-- Galeria -->
+      <section id="galeria" class="galeria">
+        <!-- <h3>Un pedacito de nuestra historia...</h3> -->
+        <!-- <article class="instagram">
+          <i class="fab fa-instagram"></i>
+          <p class="hashtag">#BriXVaños</p>
+          <a href="https://www.instagram.com/explore/tags/brixvaños/" target="_blank">Ver en Instagram</a>
+        </article> -->
+        <article class="galeriaFotos">
+          <div class="fotos" id="imagen"></div>
+        </article>
+      </section>
+      <!-- Fin galeria -->
+      <!-- Confirmacion asistencia -->
+      <section id="confirmacion" class="asistencia">
+        <div class="separadorInicio"></div>
+          <h3>Confirmar asistencia</h3>
+          <p>Envianos un mensaje confirmando tu asistencia!</p>
+          <a class="btnWhatsapp"
+                href="https://wa.me/541159576689/?text= Hola, confirmo mi asistencia! soy ..."
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i>Confirmar ahora</a
+              >
+      </section>
+      <!-- Fin confirmacion asistencia -->
+    </main>
+    <footer>
+      <p>invitavit.online 2022</p>
+    </footer>
+  </body>
+</html>
