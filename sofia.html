@@ -31,30 +31,29 @@
     <main>
       <!-- Banner -->
       <section class="banner">
-        <div class="textoBanner">
+        <!-- <div class="textoBanner">
           <h1>Sofia</h1>
           <h2>Mis 15 años</h2>
-        </div>
+        </div> -->
         <p>FALTAN</p>
           <div id="reloj">
           </div>
       </section>
       <!-- Fin banner -->
-      <div class="separadorInicio"></div>
       <!-- Informacion -->
       <section class="info">
           <!-- Donde y cuando -->
         <article class="dondeCuando">
           <h3>Dónde y cuándo</h3>
-          <h4>FIESTA</h4>
+          <div class="informacion"></div>
           <img src="./img/galeriaSofia/salonSofia.webp" alt="Antonella Eventos" />
           <h4 class="nombreSalon">ANTONELLA EVENTOS</h4>
-          <h5>¡Te esperamos!</h5>
-          <div class="textoFechaLugar">
+          
+          <!-- <div class="textoFechaLugar">
             <p class="cuando"><span>Cuándo:</span> 20 de noviembre - 21:00Hs</p>
           <p class="direccion">
             <span>Dirección:</span> 9 de julio 2034 - San Vicente </p>
-          </div>
+          </div> -->
   
             <a href="https://goo.gl/maps/73HxWabTVXnnCfTK9" target="_blank" class="btnMapa">Abrir mapa</a>
           <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=CUMPLE+15+Sofia&dates=20221120T210000/20221121T060000&details=Cumpleaños+de+15+de+Sofia+en+Antonella+Eventos&location=9+de+julio+2034+-+San+Vicente&sf=true&output=xml" target="_blank" class="btnFecha">Agendar fecha</a>
@@ -67,7 +66,7 @@
         <!-- Vestimenta -->
         <article class="vestimenta">
             <h3>Dress Code</h3>
-            <img src="./img/iconDressCode.png" alt="vestimenta elegante sport">
+            <img src="./img/galeriaSofia/iconDressCode.png" alt="vestimenta elegante sport">
             <p>Elegante</p>
         </article>
         <!-- Fin vestimenta -->
@@ -93,7 +92,6 @@
 
       </section>
       <!-- Fin Informacion -->
-      <div class="separadorFin"></div>
       <!-- Galeria -->
       <section id="galeria" class="galeria">
         <!-- <h3>Un pedacito de nuestra historia...</h3> -->
@@ -102,24 +100,28 @@
           <p class="hashtag">#SofiXVaños</p>
           <a href="https://www.instagram.com/explore/tags/sofixvaños/" target="_blank">Ver en Instagram</a>
         </article>
-        <article class="galeriaFotos">
+        <article class="galeriaFotos oculto">
           <div class="fotos" id="imagen"></div>
         </article>
       </section>
       <!-- Fin galeria -->
-      <div class="separadorInicio"></div>
+      <div class="florDerecha"></div>
       <!-- Confirmacion asistencia -->
       <section id="confirmacion" class="asistencia">
-          <h3>Confirmar asistencia</h3>
-          <p>Envianos un mensaje confirmando tu asistencia!</p>
-          <a class="btnWhatsapp"
-                href="https://wa.me/541135568201/?text= Hola, confirmo mi asistencia! soy ..."
-                target="_blank"
-                ><i class="fab fa-whatsapp"></i>Confirmar ahora</a
-              >
-      </section>
+        <h3>Confirmar asistencia</h3>
+        <p>Envianos un mensaje confirmando tu asistencia e indicanos si tenés algún tipo de restricción alimentaria para adaptar tu menú!</p>
+        <article class="menuComida">
+            <h3>Menú</h3>
+            <select id="menuComida">
+              <option value="0">Menú clásico</option>
+              <option value="1">Menú vegetariano</option>
+              <option value="2">Menú celíaco</option>
+              <option value="3">Menú vegano</option>
+            </select>
+        </article>
+        <button class="btnWhatsapp"><i class="fab fa-whatsapp"></i>Confirmar ahora</button>
+    </section>
       <!-- Fin confirmacion asistencia -->
-      <div class="separadorFin"></div>
     </main>
     <footer>
       <p>invitavit.online 2022</p>

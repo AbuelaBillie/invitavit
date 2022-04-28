@@ -1,16 +1,7 @@
 window.addEventListener("load", function () {
     ////////////////// SLIDER IMAGENES /////////////////
     var imagenes = new Array(
-      ["./img/galeriaBrisa/1.webp"],
-      ["./img/galeriaBrisa/2.webp"],
-      ["./img/galeriaBrisa/3.webp"],
-      ["./img/galeriaBrisa/4.webp"],
-      ["./img/galeriaBrisa/5.webp"],
-      ["./img/galeriaBrisa/6.webp"],
-      ["./img/galeriaBrisa/7.webp"],
-      ["./img/galeriaBrisa/8.webp"],
-      ["./img/galeriaBrisa/9.webp"],
-      ["./img/galeriaBrisa/10.webp"]
+      ["./img/galeriaBrisa/1.webp"]
     );
     var contador = 0;
   
@@ -64,5 +55,34 @@ window.addEventListener("load", function () {
   
   countdown('Nov 20 2022 21:00:00 GMT-0300', 'reloj', '0 días restantes');
   ////////////////////////////////////////////////////
+
+    ///////////////// CONFIRMACION WSP /////////////////
+    const menuComida = document.getElementById("menuComida");
+    const btnWsp = document.querySelector(".btnWhatsapp");
+  
+    menuComida.addEventListener("change", function () {
+      let opcionSeleccionada = "";
+      switch (menuComida.selectedIndex) {
+        case 0: opcionSeleccionada = " clásico"; 
+          break;
+        case 1: opcionSeleccionada = " vegetariano"; 
+          break;
+        case 2: opcionSeleccionada = " celíaco"; 
+          break;
+        case 3: opcionSeleccionada = " vegano"; 
+          break;
+        default: opcionSeleccionada = "clásico";
+          break;
+      }
+      btnWsp.addEventListener("click", function () {
+        location.href = `https://wa.me/541135568201/?text=Hola,+confirmo+mi+asistencia+con+menú+${opcionSeleccionada}+soy+...`;
+      });
+    });
+    btnWsp.addEventListener("click", function () {
+      location.href = `https://wa.me/541135568201/?text=Hola,+confirmo+mi+asistencia+con+menú+clásico+soy+...`;
+    });
+  
+    ////////////////////////////////////////////////////
+
   });
   
