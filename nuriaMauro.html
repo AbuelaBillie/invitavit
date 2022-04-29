@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/nuriaMauro.css">
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/sliderMauro.js"></script>
+    <title>Invitavit</title>
+  </head>
+  <body>
+    <header>
+      <!-- Barra navegación -->
+    <nav>
+      <span class="navBar" id="btnMenu"><i class="fas fa-bars"></i></span>
+        <ul class="navMenu">
+          <!-- <li><a href="./index.html#galeria">Galería</a></li> -->
+          <li><a href="./nuriaMauro.html#confirmacion">Confirmar asistencia</a></li>
+        </ul>
+      </nav>
+      <audio id="cancion" loop="loop" src="./aud/songMauro.mp3"></audio>
+      <button class="btnAudio mute"><i class="fas fa-volume-mute"></i></button>
+      <!-- fin Barra navegación -->
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="textoBanner">
+          <h1>Nuria y Mauro</h1>
+          <h2>NOS CASAMOS</h2>
+        </div>
+        <p>FALTAN</p>
+          <div id="reloj">
+          </div>
+      </section>
+      <!-- Fin banner -->
+      <!-- Informacion -->
+      <section class="info">
+          <!-- Donde y cuando -->
+        <article class="dondeCuando salon">
+            <h3>Dónde y cuándo</h3>
+          <h4>CIVIL Y FIESTA</h4>
+          <img src="./img/galeriaNuriaMauro/salon.webp" alt="Camping SEC" />
+          <h4 class="nombreSalon">CAMPING SEC PUERTO MADRYN</h4>
+          <h5>¡Te esperamos!</h5>
+          <div class="textoFechaLugar">
+            <p class="cuando"><span>Cuándo:</span>27 de Julio - 21:00Hs</p>
+          <p class="direccion">
+            <span>Dirección:</span>RN A010, u9120 Puerto Madryn - Chubut
+          </p>
+          </div>
+  
+            <a href="https://goo.gl/maps/BurtvPQBsmL6g9Px5" target="_blank" class="btnMapa">Abrir mapa</a>
+          <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=CASAMIENTO+Mauro+y+Nuria&dates=20220727T210000/20220728T060000&details=Casamiento+de+Mauro+y+Nuria+en+el+camping+SEC&location=RN+A010,+u9120+Puerto+Madryn&sf=true&output=xml" target="_blank" class="btnFecha">Agendar fecha</a>
+
+          <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2929.680086971873!2d-65.0654436845312!3d-42.752820279162556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbe02358f3f12a24d%3A0x9f0173521e4b79d9!2sCamping%20Sindicato%20Empleados%20de%20Comercio%20Puerto%20Madryn!5e0!3m2!1ses!2sar!4v1651264522339!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        </article>
+        <!-- Fin donde y cuando -->
+
+        <!-- Vestimenta -->
+        <article class="vestimenta">
+            <h3>Vestimenta</h3>
+            <img src="./img/galeriaCeciAle/iconDressCode.png" alt="vestimenta elegante sport">
+            <p>Formal</p>
+        </article>
+        <!-- Fin vestimenta -->
+        <div class="decoracion"></div>
+        <!-- Regalos -->
+        <article class="regalos">
+            <h3>Regalos</h3>
+            <p>Lo más importante es contar con tu presencia en este momento único de nuestras vidas, pero si estás pensando en hacernos un regalo qué mejor que una ayudita!</p>
+        <!-- <ul>
+          <li><i class="fas fa-gift"></i>Ropa</li>
+          <li><i class="fas fa-gift"></i>Libros</li>
+          <li><i class="fas fa-gift"></i>Heladera</li>
+        </ul> -->
+        <button class="btnDatosBancarios"><i class="fas fa-gift"></i>Datos bancarios</button>
+        <div class="contDatosBancarios oculto">
+          <p><span>Titular:</span> NURIA YANINA PIUCOL ANTIECO</p>
+          <p><span>N° Cuenta:</span> 403600023894009</p>
+          <p><span>CBU:</span> 0440036340000238940091</p>
+          <p><span>Alias:</span> SALERO.GIRO.TERO</p>
+          <p><span>CUIL:</span> 27286823195</p>
+        </div>
+        </article>
+        <!-- Fin regalos -->
+
+      </section>
+      <!-- Fin Informacion -->
+      <!-- Galeria -->
+      <section id="galeria" class="galeria">
+        <!-- <article class="instagram">
+          <i class="fab fa-instagram"></i>
+          <p class="hashtag">#bodaCeciyAle</p>
+          <a href="https://www.instagram.com/explore/tags/bodaCeciyAle/" target="_blank">Ver en Instagram</a>
+        </article> -->
+        <article class="galeriaFotos">
+          <div class="fotos" id="imagen"></div>
+        </article>
+      </section>
+      <!-- Fin galeria -->
+      <div class="separadorInicio"></div>
+       <!-- Confirmacion asistencia -->
+       <section id="confirmacion" class="asistencia">
+        <h3>Confirmar asistencia</h3>
+        <p>Envianos un mensaje confirmando tu asistencia e indicanos si tenés algún tipo de restricción alimentaria para adaptar tu menú!</p>
+        <p>(Confirmar antes del 8/07/2022)</p>
+        <a class="btnWhatsapp confirmarA"
+              href="https://wa.me/542804638502/?text= Hola, confirmo mi asistencia! soy ..."
+              target="_blank"
+              ><i class="fab fa-whatsapp"></i>Confirmar a Mauro</a
+            >
+            <a class="btnWhatsapp confirmarB"
+              href="https://wa.me/542804607850/?text= Hola, confirmo mi asistencia! soy ..."
+              target="_blank"
+              ><i class="fab fa-whatsapp"></i>Confirmar a Nuria </a
+            >
+    </section>
+    <!-- Fin confirmacion asistencia -->
+    </main>
+    <footer>
+      <p>invitavit.online 2022</p>
+    </footer>
+  </body>
+</html>
