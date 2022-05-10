@@ -1,0 +1,87 @@
+html{
+    background-color: black;
+}
+p, h4, h5{
+    color: #d4a8a8;
+}
+h3{
+    color: #d4a8a8;
+}
+.banner {
+    width: 100%;
+    height: 30rem;
+    background-image: url("../img/galeriaCande/1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .banner p{
+    color: #c49d5a;
+  }
+  .textoBanner{
+      margin-bottom: 1rem;
+      color: #c49d5a;
+  }
+  .separadorInicio{
+      background-image: url("../img/galeriaCande/ornamenta.png");
+      height: 10rem;
+  }
+  .separadorFin{
+    background-image: url("../img/ornamentaFrida.png");
+    height: 10rem;
+    transform: none;
+}
+.vestimenta img{
+    height: auto;
+    object-fit: contain;
+}
+.regalos img{
+    margin-top: 1rem;
+    height: auto;
+    width: 60%;
+    object-fit: contain;
+}
+.hashtag{
+    color: white;
+}
+.regalos{
+    margin-bottom: 2rem;
+}
+#btnMenu{
+    color:#d4a8a8;
+}
+.btnAudio{
+    background-color: #d4a8a8;
+}
+.btnMapa, .btnFecha{
+    color: #c49d5a;
+}
+.btnDatosBancarios{
+    background-color: #c49d5a;
+    border-radius: .3rem;
+    border: none;
+}
+.btnWhatsapp{
+    background-color: #d4a8a8;
+    color: black;
+}
+.btnWhatsapp i{
+    color: black;
+}
+.navMenu{
+    background-color: #d4a8a8;
+}
+  @media screen and (min-width: 768px) {
+      .banner{
+          height: 50rem;
+          background-size: contain;
+      }
+      .vestimenta img{
+        height: auto;
+        object-fit: contain;
+      }
+      .regalos img{
+          height: auto;
+          object-fit: contain;
+      }
+  }
