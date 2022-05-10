@@ -1,8 +1,9 @@
-html{
-    background-color: black;
-}
-p, h4, h5{
+
+h4, h5{
     color: #d4a8a8;
+}
+p{
+    color: #c49d5a;
 }
 h3{
     color: #d4a8a8;
@@ -22,6 +23,7 @@ h3{
       margin-bottom: 1rem;
       color: #c49d5a;
   }
+
   .separadorInicio{
       background-image: url("../img/galeriaCande/ornamenta.png");
       height: 10rem;
@@ -60,13 +62,10 @@ h3{
     background-color: #c49d5a;
     border-radius: .3rem;
     border: none;
+    color: white;
 }
 .btnWhatsapp{
-    background-color: #d4a8a8;
-    color: black;
-}
-.btnWhatsapp i{
-    color: black;
+    background-color: #c49d5a;
 }
 .navMenu{
     background-color: #d4a8a8;
