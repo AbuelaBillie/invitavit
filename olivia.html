@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/olivia.css">
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/sliderOlivia.js"></script>
+    <title>Invitavit</title>
+  </head>
+  <body>
+    <header>
+      <!-- Barra navegación -->
+      <span class="navBar" id="btnMenu"><i class="fas fa-bars"></i></span>
+        <ul class="navMenu">
+          <li><a href="./olivia.html#confirmacion">Confirmar asistencia</a></li>
+        </ul>
+      </nav>
+      <audio id="cancion" loop="loop" src="./aud/songOlivia.mp3"></audio>
+      <button class="btnAudio mute"><i class="fas fa-volume-mute"></i></button>
+      <!-- fin Barra navegación -->
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="textoBanner">
+          <h1>Olivia</h1>
+          <h2>Mi primer añito</h2>
+        </div>
+        <p>FALTAN</p>
+          <div id="reloj">
+          </div>
+      </section>
+      <!-- Fin banner -->
+      <div class="separadorInicio"></div>
+      <!-- Informacion -->
+      <section class="info">
+          <!-- Donde y cuando -->
+        <article class="dondeCuando">
+          <h3>Dónde y cuándo</h3>
+          <h4>FIESTA</h4>
+          <img src="./img/galeriaOlivia/salon.webp" alt="Olivia eventos Lanús" />
+          <h4 class="nombreSalon">OLIVIA EVENTOS LANÚS</h4>
+          <h5>¡Te esperamos!</h5>
+          <div class="textoFechaLugar">
+            <p class="cuando"><span>Cuándo:</span> 19 de Junio - 16:00Hs</p>
+          <p class="direccion">
+            <span>Dirección:</span> Ministro Brin 3480 - Lanús Oeste</p>
+          </div>
+  
+            <a href="https://goo.gl/maps/pU7vLnG3s85m3pkQA" target="_blank" class="btnMapa">Abrir mapa</a>
+          <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=CUMPLE PRIMER AÑITO Olivia&dates=20220619T160000/20220619T190000&details=Cumpleaños+de+1+año+de+Olivia+en+el+Salón+Olivia+Eventos+de+Lanús&location=Ministro+Brin+3480+-+Lanús+Oeste&sf=true&output=xml" target="_blank" class="btnFecha">Agendar fecha</a>
+
+          <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2188.927286936233!2d-58.39738745169992!3d-34.713117475025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd17b81c7895%3A0x5d701defdcfbf544!2sOlivia%20Eventos%20Lan%C3%BAs!5e0!3m2!1ses-419!2sar!4v1652380434741!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Fin donde y cuando -->
+
+      </section>
+      <!-- Fin Informacion -->
+      <div class="separadorFin"></div>
+      <!-- Galeria -->
+      <section id="galeria" class="galeria">
+        <article class="instagram">
+          <i class="fab fa-instagram"></i>
+          <p class="hashtag">#1AñoOliviaBetsabe</p>
+          <a href="https://www.instagram.com/explore/tags/1añooliviabetsabe/" target="_blank">Ver en Instagram</a>
+        </article>
+        <article class="galeriaFotos">
+          <div class="fotos" id="imagen"></div>
+        </article>
+      </section>
+      <!-- Fin galeria -->
+      <div class="separadorInicio"></div>
+      <!-- Confirmacion asistencia -->
+      <section id="confirmacion" class="asistencia">
+          <h3>Confirmar asistencia</h3>
+          <p>Envianos un mensaje confirmando tu asistencia!</p>
+          <a class="btnWhatsapp"
+                href="https://wa.me/541144212133/?text= Hola, confirmo mi asistencia! soy ..."
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i>Confirmar a Nati</a
+              >
+            <a class="btnWhatsapp"
+                href="https://wa.me/541125603004/?text= Hola, confirmo mi asistencia! soy ..."
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i>Confirmar a Juan</a
+              >
+      </section>
+      <!-- Fin confirmacion asistencia -->
+      <div class="separadorFin"></div>
+    </main>
+    <footer>
+      <p>invitavit.online 2022</p>
+    </footer>
+  </body>
+</html>

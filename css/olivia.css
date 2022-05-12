@@ -1,0 +1,74 @@
+.banner {
+    width: 100%;
+    height: 35rem;
+    background-image: url("../img/galeriaOlivia/portada.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .banner p{
+      color: #6bd6f7;
+      text-shadow: none;
+  }
+  .textoBanner{
+      height: 22rem;
+      text-shadow: none;
+      color: #f7aec1;
+  }
+  h3{
+      color: #f7aec1;
+  }
+  h4, h5{
+      color: #6bd6f7;
+  }
+  .separadorInicio{
+      background-image: url("../img/galeriaOlivia/ornamenta.png");
+      height: 5rem;
+  }
+  .separadorFin{
+    background-image: url("../img/galeriaOlivia/ornamenta.png");
+    height: 5rem;
+    transform: none;
+}
+.textoFechaLugar, .btnMapa, .btnFecha{
+    color: #f7aec1;
+}
+.vestimenta img{
+    height: auto;
+    object-fit: contain;
+}
+.regalos img{
+    margin-top: 1rem;
+    height: auto;
+    width: 60%;
+    object-fit: contain;
+}
+.asistencia p{
+    color: #6bd6f7;
+}
+#btnMenu{
+    color:#f7aec1;
+}
+.btnAudio{
+    background-color: #6bd6f7;
+}
+.navMenu{
+    background-color: #f7aec1;
+}
+.btnWhatsapp{
+    margin-bottom: 1rem;
+    width: 13rem;
+    background-color: #6bd6f7;
+}
+  @media screen and (min-width: 768px) {
+      .banner{
+          height: 50rem;
+          background-size: contain;
+      }
+      .textoBanner{
+          height: 32rem;
+      }
+      .btnWhatsapp{
+          width: 15rem;
+      }
+  }
