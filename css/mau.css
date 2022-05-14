@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+*{
+    font-family: 'Koulen', cursive;
+    font-weight: 400;
+}
+html, .navBar{
+    background-color: #000;
+}
+.navMenu{
+    background-color: #f4b900;
+
+}
+h3{
+    font-weight: bold;
+}
+h4{
+    font-size: 1.2rem;
+}
+
+h3, h4, h5, p{
+    color: #e20d01;
+}
+h4, p, h5{
+    color: white
+}
+.banner p{
+    font-size: 1.5rem;
+}
+.dondeCuando span{
+    font-weight: 400;
+    color: #f4b900;
+}
+.contDatosBancarios span{
+    font-weight: 400;
+    color: #f4b900;
+}
+#aviso{
+    text-align: center;
+}
+.textoBanner{
+    margin: 0rem;
+}
+.btnMapa, .btnFecha{
+    color: #e20d01;
+}
+h2{
+    font-family: 'Koulen', cursive;
+}
+.banner {
+    width: 100%;
+    height: 30rem;
+    background-image: url("../img/galeriaMauro/portada.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  #btnMenu{
+      color: #f4b900;
+  }
+  .btnAudio{
+      background-color: #e20d01;
+  }
+  .separadorInicio{
+      background-image: url("../img/galeriaMauro/ornamentaGuns.png");
+      height: 7rem;
+  }
+  .separadorFin{
+    background-image: url("../img/galeriaMauro/ornamentaGuns.png");
+    height: 7rem;
+    transform: none;
+}
+.separadorGuns{
+    background-image: url("../img/galeriaMauro/ornamentaGuns2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 7rem;
+    margin-top: 2rem;
+}
+.btnDatosBancarios{
+    background-color: #f4b900;
+    border: none;
+    border-radius: .3rem;
+}
+  @media screen and (min-width: 768px) {
+      .banner{
+          height: 50rem;
+          background-size: contain;
+      }
+  }

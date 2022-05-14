@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mau.css">
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/sliderMau.js"></script>
+    <title>Invitavit</title>
+  </head>
+  <body>
+    <header>
+      <!-- Barra navegación -->
+      <span class="navBar" id="btnMenu"><i class="fas fa-bars"></i></span>
+        <ul class="navMenu">
+          <li><a href="./mauro.html#confirmacion">Confirmar asistencia</a></li>
+        </ul>
+      </nav>
+      <audio id="cancion" loop="loop" src="./aud/songMau.mp3"></audio>
+      <button class="btnAudio mute"><i class="fas fa-volume-mute"></i></button>
+      <!-- fin Barra navegación -->
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="textoBanner">
+          <h1>Mauro</h1>
+          <h2>Mis 18</h2>
+        </div>
+     
+          <div id="reloj">
+          </div>
+      </section>
+      <!-- Fin banner -->
+      <div class="separadorInicio"></div>
+      <!-- Informacion -->
+      <section class="info">
+          <!-- Donde y cuando -->
+        <article class="dondeCuando">
+          <h3>Donde y cuando</h3>
+          <h4>FIESTA</h4>
+          <img src="./img/galeriaMauro/salon.PNG" alt="Class recepciones" />
+          <h4 class="nombreSalon">CLASS RECEPCIONES</h4>
+          <div class="textoFechaLugar">
+            <p class="cuando"><span>Cuando:</span> 29 de octubre - 21:30Hs a 4:30Hs</p>
+          <p class="direccion">
+            <span>Direccion:</span> Av. Nazca 35 - CABA
+          </p>
+          </div>
+  
+            <a href="https://goo.gl/maps/Lxjudx79gQyKtqMc6" target="_blank" class="btnMapa">Abrir mapa</a>
+          <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=CUMPLE+18+Mauro&dates=20221029T213000/20221030T043000&details=Cumpleaños+de+18+de+Mauro+en+el+salón+Class+recepciones&location=Av.+Nazca+35+-+CABA&sf=true&output=xml" target="_blank" class="btnFecha">Agendar fecha</a>
+
+          <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.9725889484694!2d-58.4718576847697!3d-34.630132980452814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc98edf5a6453%3A0x3ef50ab70de84faf!2sSal%C3%B3n%20de%20Fiestas%20Class!5e0!3m2!1ses!2sar!4v1652485554560!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        </article>
+        <!-- Fin donde y cuando -->
+
+        <!-- Vestimenta -->
+        <article class="vestimenta">
+            <h3>Dress Code</h3>
+            <img src="./img/galeriaMauro/iconDressCode.png" alt="vestimenta elegante sport">
+            <p>Elegant Sport</p>
+        </article>
+        <!-- Fin vestimenta -->
+
+        <!-- Regalos -->
+        <article class="regalos">
+            <h3>Regalos</h3>
+            <p>El mejor regalo es tu presencia, pero si queres tener un detalle conmigo ¡Que mejor que una ayudita!</p>
+        <button class="btnDatosBancarios"><i class="fas fa-gift"></i>Datos bancarios</button>
+        <div class="contDatosBancarios oculto">
+          <p><span>Banco:</span> Banco Ciudad</p>
+          <p><span>CBU:</span> 0290026110000035625475</p>
+          <p><span>Alias:</span> CHILE.BUEY.BAMBU</p>
+          <p><span>CUIL:</span> 27-26427038-9</p>
+          <p id="aviso">No te olvides de avisarme</p>
+        </div>
+        </article>
+        <!-- Fin regalos -->
+
+      </section>
+      <!-- Fin Informacion -->
+      <!-- Galeria -->
+      <section id="galeria" class="galeria oculto">
+        <!-- <h3>Un pedacito de nuestra historia...</h3> -->
+        <article class="instagram">
+          <i class="fab fa-instagram"></i>
+          <p class="hashtag">#Mauro18Class</p>
+          <a href="https://www.instagram.com/explore/tags/mauro18class/" target="_blank">Ver en Instagram</a>
+        </article>
+        <article class="galeriaFotos">
+          <div class="fotos" id="imagen"></div>
+        </article>
+      </section>
+      <!-- Fin galeria -->
+      <div class="separadorGuns"></div>
+      <!-- Confirmacion asistencia -->
+      <section id="confirmacion" class="asistencia">
+          <h3>Confirmar asistencia</h3>
+          <p>Enviame un mensaje confirmando tu asistencia</p>
+          <a class="btnWhatsapp"
+                href="https://wa.me/541166817877/?text= Hola, confirmo mi asistencia! soy ..."
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i>Confirmar ahora</a
+              >
+      </section>
+      <!-- Fin confirmacion asistencia -->
+      <div class="separadorFin"></div>
+    </main>
+    <footer>
+      <p>invitavit.online 2022</p>
+    </footer>
+  </body>
+</html>
