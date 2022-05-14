@@ -48,14 +48,17 @@ h2{
 }
 .banner {
     width: 100%;
-    height: 30rem;
+    height: 35rem;
     background-image: url("../img/galeriaMauro/portada.webp");
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
   }
   #btnMenu{
       color: #f4b900;
+  }
+  .instagram{
+      margin-top: 2rem;
   }
   .btnAudio{
       background-color: #e20d01;

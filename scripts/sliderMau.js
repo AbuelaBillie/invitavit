@@ -1,19 +1,4 @@
 window.addEventListener("load", function () {
-    ////////////////// SLIDER IMAGENES /////////////////
-    var imagenes = new Array(
-    );
-    var contador = 0;
-  
-    function cambiarImagenes() {
-      contador++;
-      const foto = document.getElementById("imagen");
-      foto.style.backgroundImage = `url(${imagenes[contador % imagenes.length]})`;
-    }
-  
-    cambiarImagenes();
-  
-    setInterval(cambiarImagenes, 3000);
-    ////////////////////////////////////////////////////
 
     ///////////////// CUENTA REGRESIVA /////////////////
 
