@@ -1,7 +1,7 @@
 window.addEventListener("load", function () {
     //////////////////// SLIDER IMAGENES ////////////////
     var imagenes = new Array(
-      ["./img/galeriaVaniLucas/1.webp"],
+      ["./img/galeriaVaniLucas/portada.webp"],
       ["./img/galeriaVaniLucas/2.webp"],
       ["./img/galeriaVaniLucas/3.webp"],
       ["./img/galeriaVaniLucas/4.webp"],

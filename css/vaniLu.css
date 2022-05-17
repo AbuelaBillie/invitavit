@@ -1,12 +1,72 @@
 .banner {
     height: 35rem;
-    background-image: url("../img/galeriaVaniLucas/portada.webp");
+    background-image: url("../img/galeriaVaniLucas/1.jpeg");
   background-size: cover;
   }
  .btnWhatsapp{
      border: none;
  } 
- 
+ .textoBanner h1{
+    font-size: 1.2rem;
+ }
+ .textoBanner h2{
+    font-size: 3rem;   
+ }
+ .textoBanner{
+ text-shadow: 0.2rem 0.2rem 0.3rem #5f452f;
+ }
+ p{
+    color: #a47f5c;
+ }
+ .banner p{
+    color: white;
+ }
+ .banner span{
+    color: white;
+ }
+ h5, h3{
+    color: #E0BFB8;
+ } h4{
+    color: #a47f5c;
+ }
+ .navBar, span, .btnMapa, .btnFecha{
+    color: #a47f5c;
+ }
+ .navMenu{
+    background-color: #E0BFB8;
+ }
+ .dondeCuando h5{
+   text-transform: none;
+ font-family: "Great Vibes", cursive;
+font-size: 2rem;
+}
+.btnWhatsapp{
+   background-color:white;
+   border: solid;
+border-color: #a47f5c;
+border-width: .1rem;
+color: #a47f5c;
+}
+.btnWhatsapp i{
+   color: #a47f5c;
+}
+#menuComida{
+   border-color: #a47f5c;
+   color: #a47f5c;
+}
+.btnDatosBancarios{
+   border-radius: .3rem;
+border: solid;
+border-width: .1rem;
+border-color: #a47f5c;
+color: #a47f5c;
+}
+.separadorInicio {
+   background-image: url("../img/galeriaVaniLucas/ornamenta.png");
+ }
+ .separadorFin {
+   background-image: url("../img/galeriaVaniLucas/ornamenta.png");
+ }
  .vestimenta{
      display: flex;
      flex-direction: column;
@@ -19,6 +79,15 @@
         background-size: contain;
      }
      .textoBanner h1{
-        font-size: 3rem;
+        font-size: 1.8rem;
      }
+     .textoBanner h2{
+        font-size: 5rem;
+     }
+    .dondeCuando h4{
+       font-size: 1rem;
+    }
+     .dondeCuando h5{
+    font-size: 4rem;
+   }
   }
