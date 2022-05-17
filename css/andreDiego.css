@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500&display=swap');
+@font-face {
+    font-family: 'suttimmos';
+    src:url('../fonts/suttimmos.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'Spartan', sans-serif;
+}
+h3{
+    font-family: suttimmos;
+    font-size: 3rem;
+    color: #ad9f67;
+}
+
+.banner{
+    background-image: url("../img/galeriaCeciAle/flores.png");
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-position: top;
+}
+.textoBanner{
+    height: 15rem;
+    justify-content: space-evenly;
+    margin-top: 9rem;
+}
+
+.textoBanner h1{
+    padding: .5rem;
+    font-family: suttimmos;
+    font-size: 3.5rem;
+    text-shadow: none;
+    color: #ad9f67;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0rem 0rem 1rem rgba(1, 1, 1, 0.3);
+}
+.textoBanner h2{
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 7rem;
+    text-shadow: none;
+    color: black;
+}
+.banner p{
+    color: black;
+    text-shadow: none;
+}
+#reloj{
+    z-index: 999;
+}
+.separadorInicio{
+    z-index: 1;
+    background-image: url("../img/galeriaCeciAle/flores.png");
+    height: 15rem;
+}
+.nombreSalon{
+    text-align: center;
+}
+.parroquia{
+    margin-top: 1rem;
+    padding-top: 7rem;
+    background-image: url("../img/galeriaCeciAle/ornamentaIzquierda.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: -14rem;
+}
+.salon{
+    background-image: url("../img/galeriaCeciAle/ornamentaLinear.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 10rem;
+    margin-top: 4rem;
+    
+}
+.decoracion{
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    margin-top: 49rem;
+    margin-left: -10rem;
+    z-index: -1;
+    background-image: url("../img/galeriaCeciAle/ornamentaLinear.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: -5rem;
+}
+.regalos{
+    margin-bottom: 2rem;
+}
+.btnDatosBancarios i{
+    color: #3d4e3f;
+}
+.instagram p{
+    font-size: 1.5rem;
+}
+.btnWhatsapp{
+    width: 15rem;
+}
+.confirmarA{
+    margin-bottom: 1rem;
+}
+.btnAudio{
+    background-color: #3d4e3f;
+}
+
+@media screen and (min-width: 768px) {
+    h3{
+        font-size: 5rem;
+    }
+    .textoBanner h1{
+        font-size: 7rem;
+    }
+    .textoBanner h2{
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+    .banner{
+        background-size: 50rem;
+        padding-top: 11rem;
+    }
+    .textoBanner{
+        height: 15rem;
+        justify-content: space-evenly;
+        margin-top: 9rem;
+    }
+    
+    .banner p{
+        font-size: 1.1rem;
+    }
+    .dondeCuando h4{
+        font-size: 1.2rem;
+    }
+    section{
+        width: 100%;
+        margin: 0 auto;
+    }
+    article{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .dondeCuando img {
+        width: 37rem;
+        height: 25rem;
+      }
+    .parroquia{
+        background-size: 30rem;
+        background-position-x: 0rem;
+        background-position-y: 7rem;
+    }
+    .salon{
+        padding-top: 5rem;
+        margin-top: 2rem;
+        background-size: 30rem;
+        background-position-x: 100%;
+        background-position-y: -0.7rem;
+        
+    }
+    .vestimenta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .decoracion{
+        display: none;
+    }
+    .regalos{
+        width: 53%;
+    } 
+    .regalos p{
+        font-size: 1.1rem;
+    }
+    .contDatosBancarios p{
+        font-size: 1.1rem;
+    }
+    .galeria{
+        width: 50%;
+    }
+    .separadorInicio{
+        height: 21rem;
+    }
+    .asistencia p{
+        font-size: 1.1rem;
+    }
+    .btnWhatsapp{
+        width: 18rem;
+    }
+}
