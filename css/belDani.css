@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500&display=swap');
-@font-face {
+/* @font-face {
     font-family: 'suttimmos';
     src:url('../fonts/suttimmos.ttf');
+    font-weight: normal;
+    font-style: normal;
+} */
+@font-face {
+    font-family: LibertyBT;
+    src: url('../fonts/LibertyBT.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,7 +15,7 @@
     font-family: 'Spartan', sans-serif;
 }
 h3{
-    font-family: suttimmos;
+    font-family: LibertyBT;
     font-size: 3rem;
     color: #b78202;
 }
@@ -30,7 +36,7 @@ h3{
 
 .textoBanner h1{
     padding: .5rem;
-    font-family: suttimmos;
+    font-family: LibertyBT;
     font-size: 4.5rem;
     text-shadow: none;
     color: #b78202;

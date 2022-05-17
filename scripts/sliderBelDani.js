@@ -6,8 +6,6 @@ window.addEventListener("load", function () {
       ["./img/galeriaBelDani/3.webp"],
       ["./img/galeriaBelDani/4.webp"],
       ["./img/galeriaBelDani/5.webp"],
-      ["./img/galeriaBelDani/6.webp"],
-      ["./img/galeriaBelDani/7.webp"],
       ["./img/galeriaBelDani/8.webp"],
       ["./img/galeriaBelDani/9.webp"],
       ["./img/galeriaBelDani/10.webp"],
