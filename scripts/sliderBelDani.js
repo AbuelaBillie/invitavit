@@ -61,7 +61,7 @@ window.addEventListener("load", function () {
     }, 1000)
   };
   
-  countdown('Oct 23 2022 13:00:00 GMT-0300', 'reloj', '0 días restantes');
+  countdown('Aug 04 2022 13:00:00 GMT-0300', 'reloj', '0 días restantes');
   ////////////////////////////////////////////////////
   });
   
