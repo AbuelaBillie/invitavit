@@ -1,6 +1,6 @@
 .banner {
     height: 35rem;
-    background-image: url("../img/galeriaVaniLucas/1.jpeg");
+    background-image: url("../img/galeriaVaniLucas/portada.webp");
   background-size: cover;
   }
  .btnWhatsapp{
@@ -15,8 +15,14 @@
  .textoBanner{
  text-shadow: 0.2rem 0.2rem 0.3rem #5f452f;
  }
- p{
-    color: #a47f5c;
+ p, h4, .navBar{
+    background: linear-gradient(#d19421,#ac8131);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    color: transparent;  
+ }
+ .btnMapa, .btnFecha{
+    color: #d19421;
  }
  .banner p{
     color: white;
@@ -24,16 +30,15 @@
  .banner span{
     color: white;
  }
- h5, h3{
-    color: #E0BFB8;
- } h4{
-    color: #a47f5c;
+ h5, h3, span{
+   background: linear-gradient(#e89d96,#864e48);
+   background-clip: inherit;
+   -webkit-background-clip: text;
+   color: transparent;  
  }
- .navBar, span, .btnMapa, .btnFecha{
-    color: #a47f5c;
- }
- .navMenu{
-    background-color: #E0BFB8;
+ .navMenu, .btnAudio{
+    background-color: #b76c64;
+    background: linear-gradient(#e89d96,#864e48);
  }
  .dondeCuando h5{
    text-transform: none;
@@ -43,23 +48,23 @@ font-size: 2rem;
 .btnWhatsapp{
    background-color:white;
    border: solid;
-border-color: #a47f5c;
+border-color: #d1a949;
 border-width: .1rem;
-color: #a47f5c;
+color: #d1a949;
 }
 .btnWhatsapp i{
-   color: #a47f5c;
+   color: #d1a949;
 }
 #menuComida{
-   border-color: #a47f5c;
-   color: #a47f5c;
+   border-color: #d1a949;
+   color: #d1a949;
 }
 .btnDatosBancarios{
    border-radius: .3rem;
 border: solid;
 border-width: .1rem;
-border-color: #a47f5c;
-color: #a47f5c;
+border-color: #d1a949;
+color: #d1a949;
 }
 .separadorInicio {
    background-image: url("../img/galeriaVaniLucas/ornamenta.png");
@@ -72,6 +77,9 @@ color: #a47f5c;
      flex-direction: column;
      justify-content: center;
      align-items: center;
+ }
+ .vestimenta h3{
+    padding-right: 1rem;
  }
   @media screen and (min-width: 768px) {
      .banner{

@@ -1,11 +1,14 @@
 window.addEventListener("load", function () {
     //////////////////// SLIDER IMAGENES ////////////////
     var imagenes = new Array(
-      ["./img/galeriaVaniLucas/portada.webp"],
+      ["./img/galeriaVaniLucas/1.webp"],
       ["./img/galeriaVaniLucas/2.webp"],
       ["./img/galeriaVaniLucas/3.webp"],
       ["./img/galeriaVaniLucas/4.webp"],
-      ["./img/galeriaVaniLucas/5.webp"]
+      ["./img/galeriaVaniLucas/5.webp"],
+      ["./img/galeriaVaniLucas/6.webp"],
+      ["./img/galeriaVaniLucas/7.webp"],
+      ["./img/galeriaVaniLucas/8.webp"]
     );
     var contador = 0;
   
