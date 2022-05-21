@@ -1,0 +1,32 @@
+.banner {
+    width: 100%;
+    height: 30rem;
+    background-image: url("../img/galeriaLeisa/3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .separadorInicio, .separadorFin{
+      background-image: url("../img/galeriaLeisa/ornamenta.png");
+  }
+  h1{
+      font-size: 1.5rem;
+  }
+.textoBanner h2{
+    font-size: 3.5rem;
+}
+  h3, h4, h5, span, .btnFecha, .btnMapa, .navBar{
+      color: #162b4e;
+  }
+  .navMenu, .btnAudio, .btnWhatsapp{
+      background-color: #162b4e;
+  }
+  .banner span{
+      color: white;
+  }
+  @media screen and (min-width: 768px) {
+      .banner{
+          height: 50rem;
+          background-size: contain;
+      }
+  }
