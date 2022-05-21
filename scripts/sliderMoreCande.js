@@ -10,11 +10,7 @@ window.addEventListener("load", function () {
       ["./img/galeriaMoreCande/7.webp"],
       ["./img/galeriaMoreCande/8.webp"],
       ["./img/galeriaMoreCande/9.webp"],
-      ["./img/galeriaMoreCande/10.webp"],
-      ["./img/galeriaMoreCande/11.webp"],
-      ["./img/galeriaMoreCande/12.webp"],
-      ["./img/galeriaMoreCande/13.webp"],
-      ["./img/galeriaMoreCande/14.webp"]
+      ["./img/galeriaMoreCande/10.webp"]
     );
     var contador = 0;
   
