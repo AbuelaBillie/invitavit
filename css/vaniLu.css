@@ -1,19 +1,32 @@
 .banner {
     height: 35rem;
     background-image: url("../img/galeriaVaniLucas/portada.webp");
-  background-size: cover;
+  background-size: contain;
   }
  .btnWhatsapp{
      border: none;
  } 
- .textoBanner h1{
-    font-size: 1.2rem;
+ .textoBanner{
+    justify-content: space-between;
+    margin-bottom: 1rem;
  }
- .textoBanner h2{
-    font-size: 3rem;   
+ .textoBanner h1{
+    font-size: 3.8rem;
+    padding: 1rem;
+    font-family: "Great Vibes", cursive;
+    text-shadow: 0.2rem 0.2rem 0.3rem #000000;
+ }
+ .textoBanner h2{   
+    font-size: 2rem;  
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: linear-gradient(#e89d96,#a57974);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    color: transparent;  
  }
  .textoBanner{
- text-shadow: 0.2rem 0.2rem 0.3rem #5f452f;
+ text-shadow: none;
  }
  p, h4, .navBar{
     background: linear-gradient(#d19421,#ac8131);
@@ -21,11 +34,15 @@
     -webkit-background-clip: text;
     color: transparent;  
  }
+ .spotify{
+    margin: 0 auto;
+ }
  .btnMapa, .btnFecha{
     color: #d19421;
  }
  .banner p{
-    color: white;
+  color: white;
+   text-shadow: 0.1rem 0.1rem 0.1rem #000000;
  }
  .banner span{
     color: white;
@@ -83,19 +100,25 @@ color: #d1a949;
  }
   @media screen and (min-width: 768px) {
      .banner{
+      background-image: url("../img/galeriaVaniLucas/portadaWeb.webp");
         height: 50rem;
         background-size: contain;
      }
+
      .textoBanner h1{
-        font-size: 1.8rem;
+        font-size: 5rem;
      }
      .textoBanner h2{
-        font-size: 5rem;
+        font-size: 2.5rem;
+        margin-top: 5rem;
      }
     .dondeCuando h4{
        font-size: 1rem;
     }
      .dondeCuando h5{
     font-size: 4rem;
+   }
+   #menuComida{
+      width: 14.3rem;
    }
   }

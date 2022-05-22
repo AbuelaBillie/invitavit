@@ -8,7 +8,11 @@ window.addEventListener("load", function () {
       ["./img/galeriaVaniLucas/5.webp"],
       ["./img/galeriaVaniLucas/6.webp"],
       ["./img/galeriaVaniLucas/7.webp"],
-      ["./img/galeriaVaniLucas/8.webp"]
+      ["./img/galeriaVaniLucas/8.webp"],
+      ["./img/galeriaVaniLucas/9.webp"],
+      ["./img/galeriaVaniLucas/10.webp"],
+      ["./img/galeriaVaniLucas/11.webp"],
+      ["./img/galeriaVaniLucas/12.webp"]
     );
     var contador = 0;
   
