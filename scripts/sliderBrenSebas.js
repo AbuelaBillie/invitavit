@@ -55,32 +55,5 @@ window.addEventListener("load", function () {
     countdown("Aug 05 2022 21:00:00 GMT-0300", "reloj", "0 días restantes");
     ////////////////////////////////////////////////////
   
-    ///////////////// CONFIRMACION WSP /////////////////
-    const menuComida = document.getElementById("menuComida");
-    const btnWsp = document.querySelector(".btnWhatsapp");
-
-    menuComida.addEventListener("change", function () {
-      let opcionSeleccionada = "";
-      switch (menuComida.selectedIndex) {
-        case 0: opcionSeleccionada = " clásico"; 
-          break;
-        case 1: opcionSeleccionada = " vegetariano"; 
-          break;
-        case 2: opcionSeleccionada = " celíaco"; 
-          break;
-        case 3: opcionSeleccionada = " vegano"; 
-          break;
-        default: opcionSeleccionada = "clásico";
-          break;
-      }
-      btnWsp.addEventListener("click", function () {
-        location.href = `https://wa.me/541133570923/?text=Hola,+confirmo+la+asistencia+con+menú+${opcionSeleccionada},+soy+...`;
-      });
-    });
-    btnWsp.addEventListener("click", function () {
-      location.href = `https://wa.me/541133570923/?text=Hola,+confirmo+mi+asistencia+con+menú+clásico,+soy+...`;
-    });
-  
-    ////////////////////////////////////////////////////
   });
   
