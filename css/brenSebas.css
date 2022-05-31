@@ -1,8 +1,5 @@
 html{
-   background: linear-gradient(#d4dffc,#ffe5ea);
-    background-clip: inherit;
-    -webkit-background-clip: text;
-    color: transparent; 
+   background-color:#ffe5ea;
 }
 .banner {
     height: 21rem;
