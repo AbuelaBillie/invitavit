@@ -3,9 +3,12 @@ html{
 }
 .banner {
     height: 21rem;
+    width: 90%;
+    margin:0 auto;
     background-image: url("../img/galeriaBrenSebas/portada2.jpg");
   background-size: cover;
   margin-bottom: 7rem;
+  border-radius: .5rem;
   }
  .btnWhatsapp{
      border: none;
