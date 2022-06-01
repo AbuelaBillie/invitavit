@@ -11,9 +11,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/brisa.css">
+    <link rel="stylesheet" href="./css/belEze.css">
     <script src="./scripts/main.js"></script>
-    <script src="./scripts/sliderBrisa.js"></script>
+    <script src="./scripts/sliderBelEze.js"></script>
     <title>Invitavit</title>
   </head>
   <body>
@@ -21,10 +21,10 @@
       <!-- Barra navegación -->
       <span class="navBar" id="btnMenu"><i class="fas fa-bars"></i></span>
         <ul class="navMenu">
-          <li><a href="./brisa.html#confirmacion">Confirmar asistencia</a></li>
+          <li><a href="./belenEzequiel.html#confirmacion">Confirmar asistencia</a></li>
         </ul>
       </nav>
-      <audio id="cancion" loop="loop" src="./aud/songBrisa.mp3"></audio>
+      <audio id="cancion" loop="loop" src="./aud/songBelEze.mp3"></audio>
       <button class="btnAudio mute"><i class="fas fa-volume-mute"></i></button>
       <!-- fin Barra navegación -->
     </header>
@@ -85,42 +85,36 @@
         <!-- Vestimenta -->
         <article class="vestimenta">
             <h3>Dress Code</h3>
-            <img src="./img/iconDressCode.png" alt="vestimenta elegante sport">
+            <img src="./img/galeriaBelEze/iconDressCode.png" alt="vestimenta elegante">
             <p>Elegante</p>
         </article>
         <!-- Fin vestimenta -->
 
         <!-- Regalos -->
         <article class="regalos">
-            <!-- <h3>Regalos</h3>
-            <p>El regalo es opcional, la presencia es obligatoria. Pero si querés tener un detalle con nosotros, qué mejor regalo que una ayudita para nuestra luna de miel.</p> -->
-        <!-- <ul>
-          <li><i class="fas fa-gift"></i>Ropa</li>
-          <li><i class="fas fa-gift"></i>Libros</li>
-          <li><i class="fas fa-gift"></i>Heladera</li>
-        </ul> -->
-        <button class="btnDatosBancarios oculto"><i class="fas fa-gift"></i>Datos bancarios</button>
+            <h3>Regalos</h3>
+            <p>Nuestro mejor regalo es tu presencia. Pero si querés tener un detalle con nosotros ¡qué mejor que una ayudita!</p>
+        <button class="btnDatosBancarios"><i class="fas fa-gift"></i>Datos bancarios</button>
         <div class="contDatosBancarios oculto">
-          <p><span>Banco:</span> Brubank</p>
-          <p><span>CBU:</span> 14300017 - 13005065410014</p>
-          <p><span>Alias:</span> Abuela.Billie</p>
-          <p><span>CUIL:</span> 27-40910482-2</p>
+          <p><span>Banco:</span> BBVA</p>
+          <p><span>CBU:</span> 0170215840000014803200</p>
+          <p><span>Alias:</span> BELU.EZE</p>
+          <h5 id="aviso">EN EL SALÓN DISPONEMOS DE UN BUZÓN PARA SOBRES CON EFECTIVO<h5>
         </div>
         </article>
         <!-- Fin regalos -->
 
       </section>
       <!-- Fin Informacion -->
-      <div class="separadorFin"></div>
       <!-- Galeria -->
       <section id="galeria" class="galeria">
         <!-- <h3>Un pedacito de nuestra historia...</h3> -->
         <article class="instagram">
           <i class="fab fa-instagram"></i>
-          <p class="hashtag">#BriXVaños</p>
-          <a href="https://www.instagram.com/explore/tags/brixvaños/" target="_blank">Ver en Instagram</a>
+          <p class="hashtag">#BodaBelyEze</p>
+          <a href="https://www.instagram.com/explore/tags/bodabelyeze/" target="_blank">Ver en Instagram</a>
         </article>
-        <article class="galeriaFotos">
+        <article class="galeriaFotos oculto">
           <div class="fotos" id="imagen"></div>
         </article>
       </section>
@@ -128,16 +122,21 @@
       <div class="separadorInicio"></div>
       <!-- Confirmacion asistencia -->
       <section id="confirmacion" class="asistencia">
-          <h3>Confirmar asistencia</h3>
-          <p>Envianos un mensaje confirmando tu asistencia!</p>
-          <a class="btnWhatsapp"
-                href="https://wa.me/541134445987/?text= Hola, confirmo mi asistencia! soy ..."
-                target="_blank"
-                ><i class="fab fa-whatsapp"></i>Confirmar ahora</a
-              >
-      </section>
+        <h3>Confirmar asistencia</h3>
+        <p>Envianos un mensaje confirmando tu asistencia e indicanos si tenés algún tipo de restricción alimentaria para adaptar tu menú!</p>
+        <article class="menuComida">
+            <h3>Menú</h3>
+            <select id="menuComida">
+              <option value="0">Menú clásico</option>
+              <option value="1">Menú vegetariano</option>
+              <option value="2">Menú celíaco</option>
+              <option value="3">Menú vegano</option>
+            </select>
+        </article>
+        <button class="btnWhatsapp"><i class="fab fa-whatsapp"></i>Confirmar a Belu</button>
+        <button class="btnWhatsapp btnWhatsapp2"><i class="fab fa-whatsapp"></i>Confirmar a Eze</button>
+    </section>
       <!-- Fin confirmacion asistencia -->
-      <div class="separadorFin"></div>
     </main>
     <footer>
       <p>invitavit.online 2022</p>

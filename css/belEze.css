@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500&display=swap');
+@font-face {
+    font-family: 'suttimmos';
+    src:url('../fonts/suttimmos.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'Spartan', sans-serif;
+}
+h3{
+    font-family: suttimmos;
+    font-size: 3rem;
+    color: #ad9f67;
+}
+html{
+    background-color: white;
+}
+.banner{
+    background-image: url("../img/galeriaBelEze/flores.png");
+    background-repeat: no-repeat;
+    background-size: 32rem;
+    background-position: top;
+}
+.textoBanner{
+    height: 15rem;
+    justify-content: space-evenly;
+    margin-top: 9rem;
+}
+
+.textoBanner h1{
+    margin-top: -1rem;
+    padding: .5rem;
+    font-family: suttimmos;
+    font-size: 4rem;
+    text-shadow: none;
+    color: #ad9f67;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 0rem 0rem 1rem rgba(1, 1, 1, 0.3);
+}
+.textoBanner h2{
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 7rem;
+    text-shadow: none;
+    color: black;
+}
+.banner p{
+    color: black;
+    text-shadow: none;
+}
+#reloj{
+    z-index: 999;
+}
+.separadorInicio{
+    z-index: 1;
+    background-image: url("../img/galeriaBelEze/ornamenta.png");
+    height: 9rem;
+}
+.nombreSalon{
+    text-align: center;
+}
+.salon{
+    margin-top: 5rem;
+    background-image: url("../img/galeriaBelEze/ornamentaDerecha.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 11rem;
+    background-position-y: 1.8rem;
+    
+}
+.decoracion{
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    margin-top: 53rem;
+    margin-left: -8rem;
+    z-index: -1;
+    background-image: url("../img/galeriaBelEze/ornamentaVertical.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position-x: -0.5rem;
+}
+.regalos{
+    margin-bottom: 2rem;
+}
+.btnDatosBancarios i{
+    color: #3d4e3f;
+}
+.btnWhatsapp{
+    width: 15rem;
+    background-color: #e5a6af;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+.asistencia p{
+    text-align: center;
+}
+.mail{
+    margin-top: -1.5rem;
+}
+.btnAudio{
+    background-color: #9eaf8b;
+}
+.navMenu{
+    background-color: #e5a6af;
+}
+.contDatosBancarios{
+    width: 80%;
+}
+.contDatosBancarios p{
+    font-size: .9rem;
+}
+#aviso{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: .8rem;
+}
+@media screen and (min-width: 768px) {
+    h3{
+        font-size: 5rem;
+    }
+    .textoBanner h1{
+        font-size: 7rem;
+        margin-top: -5rem;
+    }
+    .textoBanner h2{
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+    .banner{
+        background-size: 50rem;
+        padding-top: 11rem;
+    }
+    .textoBanner{
+        height: 15rem;
+        justify-content: space-evenly;
+        margin-top: 9rem;
+    }
+    
+    .banner p{
+        font-size: 1.1rem;
+    }
+    .dondeCuando h4{
+        font-size: 1.2rem;
+    }
+    section{
+        width: 100%;
+        margin: 0 auto;
+    }
+    article{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .dondeCuando img {
+        width: 37rem;
+        height: 25rem;
+      }
+    .salon{
+        padding-top: 5rem;
+        margin-top: 2rem;
+        background-size: 23rem;
+        background-position-x: 90%;
+        background-position-y: 10rem;
+        
+    }
+    .vestimenta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .regalos{
+        width: 53%;
+    } 
+    .regalos p{
+        font-size: 1.1rem;
+    }
+    .contDatosBancarios p{
+        font-size: 1.1rem;
+    }
+    .galeria{
+        width: 50%;
+    }
+    .separadorInicio{
+        height: 15rem;
+    }
+    .asistencia p{
+        font-size: 1.1rem;
+    }
+    .btnWhatsapp{
+        width: 16rem;
+    }
+}
