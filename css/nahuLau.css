@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+*{
+ color: #212529;
+}
+h3{
+    font-family: 'Nuosu SIL', serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #44523b;
+}
+span{
+    color: #44523b;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/galeriaNahuLau/portada.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .textoBanner{
+      height: 30rem;
+  }
+  .banner p{
+      color: #44523b;
+      text-shadow: none;
+  }
+  .nombreSalon{
+    text-align: center;
+  }
+  .tarjeta{
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .tarjeta img{
+      margin: 1rem;
+      width: 30%;
+  }
+  .tarjeta p{
+      text-align: center;
+      padding: .3rem;
+  }
+  .tarjeta span{
+      font-weight: bold;
+      margin-right: .5rem;
+  }
+  .tarjetaAbono{
+    font-weight: bold;
+    font-size: .8rem;
+    margin-top: 1rem;
+  }
+  .separadorInicio{
+      background-image: url("../img/galeriaNahuLau/ornamentaLinear.png");
+  }
+  .separadorFin{
+    background-image: url("../img/galeriaNahuLau/ornamentaLinear.png");
+}
+.btnWhatsapp{
+    background-color: #44523b;
+}
+.instagram p{
+    color: white;
+}
+.instagram i{
+    color: white;
+}
+  @media screen and (min-width: 768px) {
+      .banner{
+          height: 50rem;
+          background-size: contain;
+      }
+      .textoBanner{
+          margin-bottom: 40rem;
+      }
+  }
