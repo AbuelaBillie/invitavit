@@ -59,5 +59,14 @@ window.addEventListener("load", function () {
   
   countdown('Sep 17 2022 12:00:00 GMT-0300', 'reloj', '0 días restantes');
   ////////////////////////////////////////////////////
+
+  /////////////// BTN DATOS BANCARIOS ////////////////
+  const btnDatosBancarios2 = document.querySelector(".btnDatosBancarios2");
+  const contDatosBancarios2 = document.querySelector(".contDatosBancarios2");
+
+  btnDatosBancarios2.addEventListener("click", function () {
+    contDatosBancarios2.classList.toggle("oculto");
+  });
+  ////////////////////////////////////////////////////
   });
   

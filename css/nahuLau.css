@@ -20,7 +20,7 @@ span{
     background-size:cover;
   }
   .textoBanner{
-      height: 30rem;
+      height: 38rem;
   }
   .banner p{
       color: #44523b;
@@ -68,7 +68,25 @@ span{
 .instagram i{
     color: white;
 }
-  @media screen and (min-width: 768px) {
+.btnDatosBancarios2{
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .btnDatosBancarios2 i{
+    margin-right: .6rem;
+  }
+  .contDatosBancarios2{
+    margin-top: 1.5rem;
+  }
+  .contDatosBancarios2 p{
+    padding: .2rem;
+    text-align: justify;
+  }
+  .contDatosBancarios2 span{
+    font-weight: bold;
+  }
+  @media screen and (min-width: 587px) {
       .banner{
           height: 50rem;
           background-size: contain;
