@@ -26,7 +26,7 @@ section {
   height: 100vh;
   background-attachment: fixed;
   background-image: url("../img/galeriaBriggite/portada2.webp");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -161,8 +161,9 @@ section {
   align-items: center;
   background-attachment: fixed;
   background-image: url("../img/galeriaBriggite/portada2.webp");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   height: 30rem;
   padding: 2rem;
 }
@@ -263,5 +264,11 @@ footer p {
     width: 60%;
     height: 40rem;
     margin: 0 auto;
+  }
+  .banner{
+    background-size: cover;
+  }
+  .instagram{
+    background-size: cover;
   }
 }
