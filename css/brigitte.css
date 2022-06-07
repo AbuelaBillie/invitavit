@@ -25,7 +25,7 @@ section {
     align-items: center;
   height: 100vh;
   background-attachment: fixed;
-  background-image: url("../img/galeriaBriggite/portada.webp");
+  background-image: url("../img/galeriaBriggite/portada2.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -109,10 +109,11 @@ section {
   text-align: center;
 }
 .fotos {
-  height: 40rem;
+  height: 20rem;
   width: 100%;
-  background-image: url("../img/galeriaAndreaDiego/2.webp");
+  background-image: url("../img/galeriaBriggite/2.webp");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .regalos {
   margin-top: 2rem;
@@ -159,7 +160,7 @@ section {
   justify-content: center;
   align-items: center;
   background-attachment: fixed;
-  background-image: url("../img/galeriaBriggite/portada.webp");
+  background-image: url("../img/galeriaBriggite/portada2.webp");
   background-size: cover;
   background-position: center;
   height: 30rem;
@@ -255,4 +256,12 @@ footer p {
   color: white;
   font-size: 0.7rem;
   padding: 0.3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .fotos {
+    width: 60%;
+    height: 40rem;
+    margin: 0 auto;
+  }
 }

@@ -1,30 +1,5 @@
 window.addEventListener("load", function () {
-    ////////////////// SLIDER IMAGENES /////////////////
-    var imagenes = new Array(
-      ["./img/galeriaBrisa/1.webp"],
-      ["./img/galeriaBrisa/2.webp"],
-      ["./img/galeriaBrisa/3.webp"],
-      ["./img/galeriaBrisa/4.webp"],
-      ["./img/galeriaBrisa/5.webp"],
-      ["./img/galeriaBrisa/6.webp"],
-      ["./img/galeriaBrisa/7.webp"],
-      ["./img/galeriaBrisa/8.webp"],
-      ["./img/galeriaBrisa/9.webp"],
-      ["./img/galeriaBrisa/10.webp"]
-    );
-    var contador = 0;
   
-    function cambiarImagenes() {
-      contador++;
-      const foto = document.getElementById("imagen");
-      foto.style.backgroundImage = `url(${imagenes[contador % imagenes.length]})`;
-    }
-  
-    cambiarImagenes();
-  
-    setInterval(cambiarImagenes, 3000);
-    ////////////////////////////////////////////////////
-
       ///////////////// CUENTA REGRESIVA /////////////////
 
   const getRemainingTime = deadline => {
